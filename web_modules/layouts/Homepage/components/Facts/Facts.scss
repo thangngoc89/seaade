@@ -1,0 +1,21 @@
+@import "bootstrap";
+@import "sections";
+
+.facts {
+	@extend .section;
+
+	background: url(./background.jpg) no-repeat center center / cover;
+	color: #fff;
+	position: relative;
+	text-align: center;
+
+	&::before {
+		background-color: rgba(0, 0, 0, 0.7);
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}

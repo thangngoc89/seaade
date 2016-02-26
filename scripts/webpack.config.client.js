@@ -32,7 +32,6 @@ export default {
             // prevent babel going to use your original config
             babelrc: false,
           }),
-          "eslint-loader?fix",
         ],
         exclude: /node_modules/,
       },

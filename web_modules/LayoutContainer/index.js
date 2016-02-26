@@ -1,11 +1,7 @@
-import React, { Component } from "react"
-import { PropTypes } from "react"
+import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 
-import Header from "../Header"
-import Footer from "../Footer"
-
-import styles from "./index.css"
+import "../styles/global.styles"
 
 export default class Layout extends Component {
 
@@ -23,18 +19,13 @@ export default class Layout extends Component {
     } = this.context.metadata
 
     return (
-      <div className={ styles.layout }>
+      <div>
         <Helmet
           meta={ [
             { property: "og:site_name", content: pkg.name },
-            { name: "twitter:site", content: `@${ pkg.twitter }` },
           ] }
         />
-        <Header />
-        <div className={ styles.content }>
-          { this.props.children }
-        </div>
-        <Footer />
+        { this.props.children }
       </div>
     )
   }

@@ -11,81 +11,63 @@ export default {
   },
   module: {
     loaders: [
-      { // statinamic requirement
+      {
         test: /\.md$/,
-        loader: "statinamic/lib/md-collection-loader" +
-          `?${ JSON.stringify({
+        include: /content/,
+        loader: "statinamic/lib/md-collection-loader?" +
+          JSON.stringify({
             context: path.join(config.cwd, config.source),
-            feedsOptions: {
-              title: pkg.name,
-              site_url: pkg.homepage,
-            },
-            feeds: {
-              "feed.xml": {
-                collectionOptions: {
-                  filter: { layout: "Post" },
-                  sort: "date",
-                  reverse: true,
-                  limit: 20,
-                },
-              },
-            },
-          }) }`,
+          }),
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
+        include: /web_modules/,
         loader: ExtractTextPlugin.extract(
           "style-loader",
-        // loader:
-        //   "style-loader" +
-        //   "!" +
           "css-loader" +
             "?modules"+
-            "&localIdentName=[path][name]--[local]--[hash:base64:5]" +
+            "&localIdentName=[name]--[local]--[hash:base64:5]" +
           "!" +
-          "postcss-loader",
+          "sass-loader",
         ),
       },
       {
-        test: /\.(html|ico|jpe?g|png|gif)$/,
+        test: /\global.styles$/,
+        loader: ExtractTextPlugin.extract(
+          "style-loader",
+          "css-loader" +
+          "!" +
+          "sass-loader",
+        ),
+      },
+      {
+        test: /\.(html|ico|jpe?g|png|gif|svg|eot)$/,
+        include: /web_modules/,
         loader: "file-loader" +
-          "?name=[path][name].[ext]&context=" +
+          "?name=[hash:base64].[ext]&context=" +
           path.join(config.cwd, config.destination),
       },
-
-      {
-        test: /\.svg$/,
-        loader: "raw-loader",
-      },
-
-      // client side specific loaders are located in webpack.config.client.js
     ],
   },
-
-  postcss: () => [
-    require("stylelint")(),
-    require("postcss-cssnext")({ browsers: "last 2 versions" }),
-    require("postcss-browser-reporter")(),
-    require("postcss-reporter")(),
-  ],
-
+  //
+  // postcss: () => [
+  //   require("postcss-browser-reporter")(),
+  //   require("postcss-reporter")(),
+  // ],
+  sassLoader: {
+    includePaths: [
+      path.join(config.cwd, 'web_modules/styles'),
+      path.join(config.cwd, 'web_modules'),
+      path.join(config.cwd, 'node_modules')
+    ]
+  },
   markdownIt: (
     require("markdown-it")({
-      html: true,
+      // html: true,
       linkify: true,
-      typographer: true,
-      highlight: (code, lang) => {
-        code = code.trim()
-        const hljs = require("highlight.js")
-        // language is recognized by highlight.js
-        if (lang && hljs.getLanguage(lang)) {
-          return hljs.highlight(lang, code).value
-        }
-        // ...or fallback to auto
-        return hljs.highlightAuto(code).value
-      },
+      typographer: true
     })
-      .use(require("markdown-it-toc-and-anchor"), { tocFirstLevel: 2 })
+    .use(require("markdown-it-toc-and-anchor"), { tocFirstLevel: 2 })
   ),
 
   plugins: [
