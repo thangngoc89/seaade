@@ -13,6 +13,10 @@ class Facts extends Component {
           <div className="row">
             <div className="col-sm-12 center-block">
               <h1 className={ styles.title }>{ this.props.title }</h1>
+              {
+                this.props.subtitle &&
+                <h2 className={ styles.subtitle }>{ this.props.subtitle }</h2>
+              }
             </div>
           </div>
         </div>

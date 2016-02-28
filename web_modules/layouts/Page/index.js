@@ -49,7 +49,10 @@ export default class Page extends Component {
           title={ metaTitle }
           meta={ meta }
         />
-        <Title title={ head.title } />
+        <Title
+          title={ head.title }
+          subtitle={ head.subtitle }
+        />
         <div className="container">
           <div className="row">
             <div className={ styles.mainCol }>
