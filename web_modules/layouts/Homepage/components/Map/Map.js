@@ -12,7 +12,7 @@ class Map extends React.Component {
               <p><strong>The conference will be held at Winsor Plaza Hotel</strong></p>
               <p>18 An Duong Vuong Street, Ward 5, Ho Chi Minh City, VietNam</p>
               <p>Tel: (+84) 8 3833 6688</p>
-              <p>Website: <a href="http://winsorplazahotel.com/" target="_blank">http://winsorplazahotel.com/</a></p>
+              <p>Website: <a href="http://windsorplazahotel.com/" target="_blank">http://winsorplazahotel.com/</a></p>
             </div>
             <div className="col-sm-8">
               {
