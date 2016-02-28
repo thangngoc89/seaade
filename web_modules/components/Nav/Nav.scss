@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+.logoImg {
+  width: 130px;
+  height: auto;
+}
 .wrapper {
 	@extend .navbar;
 	@extend .navbar-fixed-top;

@@ -65,8 +65,10 @@ class Nav extends React.Component {
                 to="/"
                 className="logo"
               >
-                <img src={ logo } />
-                SEAADE 2016
+                <img
+                  className={ styles.logoImg } 
+                  src={ logo }
+                />
               </Link>
             </div>
             <button
