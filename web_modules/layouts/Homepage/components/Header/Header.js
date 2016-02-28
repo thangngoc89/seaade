@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "statinamic/lib/Link"
 import styles from "./Header.scss"
 
 class HomepageHeader extends React.Component {
@@ -11,7 +12,7 @@ class HomepageHeader extends React.Component {
           <p>
             September 8<sup>th</sup> - 9<sup>th</sup>, 2016 / Ho Chi Minh City, Viet Nam
           </p>
-          <a className="btn btn-white">Learn more</a>
+          <Link to="/learn-more" className="btn btn-white">Learn more</Link>
         </div>
       </header>
     )
