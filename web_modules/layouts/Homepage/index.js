@@ -1,5 +1,4 @@
-import React, { Component } from "react"
-import { PropTypes } from "react"
+import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 
 import Header from "./components/Header"
@@ -13,38 +12,29 @@ import Map from "./components/Map"
 
 export default class Page extends Component {
 
-  static propTypes = {
-    children: PropTypes.oneOfType([ PropTypes.array, PropTypes.object ]),
-    __filename: PropTypes.string.isRequired,
-    __url: PropTypes.string.isRequired,
-    head: PropTypes.object.isRequired,
-    body: PropTypes.string.isRequired,
-  };
-
   static contextTypes = {
     metadata: PropTypes.object.isRequired,
   };
 
   render() {
     const {
-      __url,
-      head,
-    } = this.props
+      pkg
+    } = this.context.metadata
 
-    const metaTitle = head.metaTitle ? head.metaTitle : head.title
+    const title = "Home - " + pkg.sitename
 
     const meta = [
       { property: "og:type", content: "article" },
-      { property: "og:title", content: metaTitle },
-      { property: "og:url", content: __url },
-      { property: "og:description", content: head.description },
-      { name: "description", content: head.description },
+      { property: "og:title", content: title },
+      { property: "og:url", content: pkg.homepage },
+      { property: "og:description", content: title },
+      { name: "description", content: title },
     ]
 
     return (
       <div>
         <Helmet
-          title={ metaTitle }
+          title={ title }
           meta={ meta }
         />
         <Header />

@@ -2,6 +2,7 @@
   "private": true,
   "name": "seaade-2016",
   "homepage": "http://seaade.khoanguyen.me/",
+  "sitename": "27th SEAADE Annual Meeting - 2016 (SEAADE 2016)",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
