@@ -2,8 +2,6 @@ import React, { Component } from "react"
 import { PropTypes } from "react"
 import Helmet from "react-helmet"
 
-import Nav from "../../components/Nav"
-import Footer from "../../components/Footer"
 import Header from "./components/Header"
 import About from "./components/About"
 import WelcomeMessages from "./components/WelcomeMessages"
@@ -49,7 +47,6 @@ export default class Page extends Component {
           title={ metaTitle }
           meta={ meta }
         />
-        <Nav />
         <Header />
         <About />
         <WelcomeMessages />
@@ -58,7 +55,6 @@ export default class Page extends Component {
         <Schedule />
         <Sponsors />
         <Map />
-        <Footer />
       </div>
     )
   }

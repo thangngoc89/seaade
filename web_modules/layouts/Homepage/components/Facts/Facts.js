@@ -5,7 +5,7 @@ import Icon from "../../../../components/Icon"
 class Facts extends React.Component {
   render() {
     return (
-      <section id="facts" className={ styles.facts }>
+      <section className={ styles.facts }>
         <div className="container">
           <div className="row">
             <div className="col-sm-3">

@@ -1,13 +1,13 @@
-import React from "react"
+import React, { Component } from "react"
 import cx from "classnames"
 import { Link } from "statinamic/lib/Link"
 
 import styles from "./Nav.scss"
-import logo from "./logo.png"
+// import logo from "./logo.png"
 
-class Nav extends React.Component {
-  constructor() {
-    super()
+class Nav extends Component {
+  constructor(props) {
+    super(props)
 
     this.state = {
       docked: false,
@@ -27,10 +27,11 @@ class Nav extends React.Component {
     this.attachNavScroll()
   }
 
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.dockNav)
+  }
   attachNavScroll() {
-    window.addEventListener("scroll", () => {
-      this.dockNav()
-    })
+    window.addEventListener("scroll", this.dockNav)
   }
 
   dockNav() {
@@ -65,10 +66,11 @@ class Nav extends React.Component {
                 to="/"
                 className="logo"
               >
-                <img
-                  className={ styles.logoImg } 
+                {/* <img
+                  className={ styles.logoImg }
                   src={ logo }
-                />
+                /> */}
+                SEAADE 2016
               </Link>
             </div>
             <button

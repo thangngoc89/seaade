@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 
 import "../styles/global.styles"
+import Footer from "../components/Footer"
+import Nav from "../components/Nav"
 
 export default class Layout extends Component {
 
@@ -25,7 +27,9 @@ export default class Layout extends Component {
             { property: "og:site_name", content: pkg.name },
           ] }
         />
+        <Nav />
         { this.props.children }
+        <Footer />
       </div>
     )
   }

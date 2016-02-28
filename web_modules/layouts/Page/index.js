@@ -3,6 +3,9 @@ import { PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
 
+import styles from "./Page.scss"
+import Title from "../../components/Title"
+
 export default class Page extends Component {
 
   static propTypes = {
@@ -18,10 +21,6 @@ export default class Page extends Component {
   };
 
   render() {
-    const {
-      pkg,
-    } = this.context.metadata
-
     const {
       __filename,
       __url,
@@ -41,10 +40,6 @@ export default class Page extends Component {
       { property: "og:title", content: metaTitle },
       { property: "og:url", content: __url },
       { property: "og:description", content: head.description },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: metaTitle },
-      { name: "twitter:creator", content: `@${ pkg.twitter }` },
-      { name: "twitter:description", content: head.description },
       { name: "description", content: head.description },
     ]
 
@@ -54,18 +49,17 @@ export default class Page extends Component {
           title={ metaTitle }
           meta={ meta }
         />
-
-        {
-          head.title &&
-          <h1>{ head.title }</h1>
-        }
-        {
-          body &&
-          <div
-            dangerouslySetInnerHTML={ { __html: body } }
-          />
-        }
-        { this.props.children }
+        <Title title={ head.title } />
+        <div className="container">
+          <div className="row">
+            <div className={ styles.mainCol }>
+            {
+              body &&
+              <div dangerouslySetInnerHTML={ { __html: body } }></div>
+            }
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

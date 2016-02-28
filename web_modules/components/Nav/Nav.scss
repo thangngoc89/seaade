@@ -25,7 +25,7 @@
 
 
 .docked {
-	background-color: #000 !important;
+	background-color: rgba(#000, 0.7) !important;
 	padding: 0 !important;
 	transition: all 0.2s linear 0s;
 }
@@ -72,10 +72,9 @@
 
     .logo {
 	    color: #fff;
-	    font-size: 14px;
-	    font-weight: 700;
+	    font-size: 2.5rem;
+	    font-weight: 300;
 	    margin-right: 5px;
-	    letter-spacing: 3px;
 	    text-transform: uppercase;
 
 		&:focus,

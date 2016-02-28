@@ -1,0 +1,30 @@
+.section {
+ 	padding: 13rem 0 11rem 0;
+
+	background: url(./vung-tau.jpg) no-repeat center center / cover;
+	color: #fff;
+	position: relative;
+
+	&::before {
+		background-color: rgba(0, 0, 0, 0.6);
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+.title {
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+//
+// @media (min-width:768px) {
+//  	.section {
+// 	 	padding: 10rem 0;
+//  	}
+// }
