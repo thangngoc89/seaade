@@ -1,25 +1,12 @@
 import React from "react"
-
-const Avatar = ({ name }) => {
-  return (
-    <div className="speaker">
-      <figure>
-        <img
-          className="img-responsive center-block"
-          src="https://placehold.it/300x300"
-        />
-      </figure>
-      <h4>{ name }</h4>
-    </div>
-  )
-}
+import Avatar from "../../../../components/Avatar"
 
 const messages = [
   {
     name: "President of SEAADE",
   },
   {
-    name: "Presient of University of Medicine and pharmacy, Ho Chi Minh City"
+    name: "Presient of University of Medicine and pharmacy, Ho Chi Minh City",
   },
   {
     name: "Chairperson of the local organizing committee",
@@ -40,10 +27,10 @@ class HomepageWelcomeMessages extends React.Component {
           {
             messages.map((data) => (
               <div
-                key={data.name}
+                key={ data.name }
                 className="col-md-4"
               >
-                <Avatar name={data.name} />
+                <Avatar name={ data.name } />
               </div>
             ))
           }

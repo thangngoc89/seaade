@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component, PropTypes } from "react"
 
 export default class Icon extends Component {
   static propTypes = {
@@ -10,11 +10,11 @@ export default class Icon extends Component {
     size: "1rem",
   };
 
-  render () {
+  render() {
     return (
       <i
-        className={`icon-${this.props.icon}`} 
-        style={{fontSize: this.props.size}}
+        className={ `icon-${this.props.icon}` } 
+        style={ { fontSize: this.props.size } }
       />
     )
   }

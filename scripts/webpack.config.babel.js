@@ -2,7 +2,6 @@ import path from "path"
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 
-import pkg from "../package.json"
 import config from "./config.js"
 
 export default {
@@ -49,23 +48,19 @@ export default {
       },
     ],
   },
-  //
-  // postcss: () => [
-  //   require("postcss-browser-reporter")(),
-  //   require("postcss-reporter")(),
-  // ],
+
   sassLoader: {
     includePaths: [
-      path.join(config.cwd, 'web_modules/styles'),
-      path.join(config.cwd, 'web_modules'),
-      path.join(config.cwd, 'node_modules')
-    ]
+      path.join(config.cwd, "web_modules/styles"),
+      path.join(config.cwd, "web_modules"),
+      path.join(config.cwd, "node_modules"),
+    ],
   },
   markdownIt: (
     require("markdown-it")({
       // html: true,
       linkify: true,
-      typographer: true
+      typographer: true,
     })
     .use(require("markdown-it-toc-and-anchor"), { tocFirstLevel: 2 })
   ),

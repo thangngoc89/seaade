@@ -7,7 +7,7 @@ class HomepageAbout extends React.Component {
       <section id="about" className="section about">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12">
+            <div className="col-sm-10 col-sm-push-2">
               <h3 className="section-title">About SEAADE</h3>
             </div>
           </div>
@@ -16,7 +16,7 @@ class HomepageAbout extends React.Component {
               <figure>
                 <img
                   className="img-responsive"
-                  src="https://placehold.it/600x200" 
+                  src="https://placehold.it/600x200"
                 />
               </figure>
             </div>

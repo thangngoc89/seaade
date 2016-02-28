@@ -26,7 +26,7 @@ class Map extends React.Component {
               {
                 process.env.NODE_ENV !== "production" &&
                 <img
-                  src="http://placehold.it/1000x450"
+                  src="http://placehold.it/1000x600"
                   className={ styles.iframe }
                 />
               }

@@ -1,21 +1,7 @@
 import React from "react"
+import Avatar from "../../../../components/Avatar"
 
-const SpeakerAvatar = () => {
-  return (
-    <div className="speaker">
-      <figure>
-        <img
-          className="img-responsive center-block"
-          src="https://placehold.it/300x300"
-        />
-      </figure>
-      <h4>Professor John Doe</h4>
-      <p>from University ...</p>
-    </div>
-  )
-}
-
-const speakerData = [1, 2, 3, 4, 5, 6]
+const speakerData = [ 1, 2, 3, 4, 5, 6 ]
 
 class HomepageSpeaker extends React.Component {
   render() {
@@ -31,10 +17,12 @@ class HomepageSpeaker extends React.Component {
           {
             speakerData.map((key) => (
               <div
-                key={key}
+                key={ key }
                 className="col-md-4"
               >
-                <SpeakerAvatar />
+                <Avatar
+                  name="Professor John Doe"
+                />
               </div>
             ))
           }
