@@ -30,7 +30,10 @@ class HomepageWelcomeMessages extends React.Component {
                 key={ data.name }
                 className="col-md-4"
               >
-                <Avatar name={ data.name } />
+                <Avatar
+                  name={ data.name }
+                  link={"/welcome-messages/"}
+                />
               </div>
             ))
           }

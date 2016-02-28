@@ -58,11 +58,11 @@ export default {
   },
   markdownIt: (
     require("markdown-it")({
-      // html: true,
+      html: true,
       linkify: true,
       typographer: true,
     })
-    .use(require("markdown-it-toc-and-anchor"), { tocFirstLevel: 2 })
+    .use(require("markdown-it-toc-and-anchor"))
   ),
 
   plugins: [

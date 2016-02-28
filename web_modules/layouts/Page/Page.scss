@@ -2,8 +2,11 @@
 
 .mainCol {
   @extend .col-sm-12;
-  @extend .col-md-10;
 
   margin: 4rem 0 auto;
   padding: 2rem;
+}
+
+.content {
+  text-align: justify;
 }

@@ -4,6 +4,7 @@
   width: 130px;
   height: auto;
 }
+
 .wrapper {
 	@extend .navbar;
 	@extend .navbar-fixed-top;
@@ -72,7 +73,7 @@
 
     .logo {
 	    color: #fff;
-	    font-size: 2.5rem;
+	    font-size: 1.5rem;
 	    font-weight: 300;
 	    margin-right: 5px;
 	    text-transform: uppercase;

@@ -55,7 +55,10 @@ export default class Page extends Component {
             <div className={ styles.mainCol }>
             {
               body &&
-              <div dangerouslySetInnerHTML={ { __html: body } }></div>
+              <div
+                className={ styles.content }
+                dangerouslySetInnerHTML={ { __html: body } }
+              ></div>
             }
             </div>
           </div>
