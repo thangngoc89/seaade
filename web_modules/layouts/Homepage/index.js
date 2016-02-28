@@ -18,7 +18,7 @@ export default class Page extends Component {
 
   render() {
     const {
-      pkg
+      pkg,
     } = this.context.metadata
 
     const title = "Home - " + pkg.sitename
