@@ -4,6 +4,7 @@ import styles from "./Title.scss"
 class Facts extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string,
   };
 
   render() {

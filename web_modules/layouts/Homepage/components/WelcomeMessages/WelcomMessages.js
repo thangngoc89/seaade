@@ -32,7 +32,7 @@ class HomepageWelcomeMessages extends React.Component {
               >
                 <Avatar
                   name={ data.name }
-                  link={"/welcome-messages/"}
+                  link={ "/welcome-messages/" }
                 />
               </div>
             ))
