@@ -5,9 +5,7 @@ import cx from "classnames"
 
 const Avatar = ({ name, link, photo }) => {
   const imgSrc = photo ? photo : "https://placehold.it/300x300"
-  const imgClass = cx("img-responsive center-block", {
-    [styles.img]: true
-  })
+  const imgClass = cx("img-responsive center-block", styles.img)
 
   return (
     <div className="speaker">

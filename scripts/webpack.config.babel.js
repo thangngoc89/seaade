@@ -62,7 +62,7 @@ export default {
       linkify: true,
       typographer: true,
     })
-    .use(require("markdown-it-toc-and-anchor"))
+    // .use(require("markdown-it-toc-and-anchor"))
   ),
 
   plugins: [

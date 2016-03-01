@@ -1,36 +1,36 @@
 import React from "react"
 import Avatar from "../../../../components/Avatar"
-import cherdsak from "./cherdsak.jpg"
-import chooi from "./chooi gait.jpg"
-import dolan from "./dolan terri.jpg"
-import ferillo from "./ferillo.jpg"
-import krassanai from "./krassanai biosketch.jpg"
-import frederick from "./professor frederick.jpg"
+// import cherdsak from "./cherdsak.jpg"
+// import chooi from "./chooi gait.jpg"
+// import dolan from "./dolan terri.jpg"
+// import ferillo from "./ferillo.jpg"
+// import krassanai from "./krassanai biosketch.jpg"
+// import frederick from "./professor frederick.jpg"
 
 const speakerData = [
   {
-    name: "Associate Professor Cherdsak Iramameerat",
-    photo: cherdsak,
+    name: "A. Professor Cherdsak Iramameerat",
+    // photo: cherdsak,
   },
   {
     name: "Professor Toh Chooi Gait",
-    photo: chooi,
+    // photo: chooi,
   },
   {
     name: "Professor Tereesa A. Dolanand",
-    photo: dolan,
+    // photo: dolan,
   },
   {
     name: "Professor Patrick J. Ferrillo",
-    photo: ferillo,
+    // photo: ferillo,
   },
   {
     name: "Professor Krassanai Wangrangsimakul",
-    photo: krassanai,
+    // photo: krassanai,
   },
   {
     name: "Professor Frederick Charles Smales",
-    photo: frederick,
+    // photo: frederick,
   },
 ]
 
@@ -49,7 +49,7 @@ class HomepageSpeaker extends React.Component {
             speakerData.map((data) => (
               <div
                 key={ data.name }
-                className="col-md-3"
+                className="col-md-4"
               >
                 <Avatar
                   name={ data.name }
