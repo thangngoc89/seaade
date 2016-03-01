@@ -55,4 +55,4 @@ Slides should be written in English
 
 If you have any further questions, please email to: Dr. Hoang Trong Hung (seaade2016@gmail.com)
 
-## [Important dates to remember](/important-date/)
+## [Important dates to remember](/important-dates/)
