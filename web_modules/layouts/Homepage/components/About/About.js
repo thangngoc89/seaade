@@ -27,8 +27,7 @@ class HomepageAbout extends React.Component {
                 During the IADR (South East Asian Division) meetings in the late eighties this idea was
                 discussed and accepted. The delegates who attended these meetings then, proposed that an
                 association be set up to further develop the close relationship of the member countries
-                in the education field. This will provide a more formal platform in which problems
-                dental education and (What ?)
+                in the education field.
               </p>
             </div>
           </div>
