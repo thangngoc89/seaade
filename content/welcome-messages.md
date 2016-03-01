@@ -16,7 +16,7 @@ For this meeting, the Local Organizing Committee will putting up an have excelle
 
 President SEAADE
 
-## Welcome message from president of Uiversity of Medicine and Pharmacy, Ho Chi Minh City, Viet Nam
+## Welcome message from president of University of Medicine and Pharmacy, Ho Chi Minh City, Viet Nam
 
 Dear Colleagues,
 

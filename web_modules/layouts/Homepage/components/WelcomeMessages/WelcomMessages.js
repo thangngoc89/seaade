@@ -1,5 +1,6 @@
 import React from "react"
 import Avatar from "../../../../components/Avatar"
+import tdTuan from "./trandieptuan.jpg"
 
 const messages = [
   {
@@ -7,6 +8,7 @@ const messages = [
   },
   {
     name: "Presient of University of Medicine and pharmacy, Ho Chi Minh City",
+    photo: tdTuan,
   },
   {
     name: "Chairperson of the local organizing committee",
@@ -32,6 +34,7 @@ class HomepageWelcomeMessages extends React.Component {
               >
                 <Avatar
                   name={ data.name }
+                  photo={ data.photo }
                   link={ "/welcome-messages/" }
                 />
               </div>

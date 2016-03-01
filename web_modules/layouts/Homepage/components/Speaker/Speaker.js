@@ -1,7 +1,38 @@
 import React from "react"
 import Avatar from "../../../../components/Avatar"
+import cherdsak from "./cherdsak.jpg"
+import chooi from "./chooi gait.jpg"
+import dolan from "./dolan terri.jpg"
+import ferillo from "./ferillo.jpg"
+import krassanai from "./krassanai biosketch.jpg"
+import frederick from "./professor frederick.jpg"
 
-const speakerData = [ 1, 2, 3, 4, 5, 6 ]
+const speakerData = [
+  {
+    name: "Associate Professor Cherdsak Iramameerat",
+    photo: cherdsak,
+  },
+  {
+    name: "Professor Toh Chooi Gait",
+    photo: chooi,
+  },
+  {
+    name: "Professor Tereesa A. Dolanand",
+    photo: dolan,
+  },
+  {
+    name: "Professor Patrick J. Ferrillo",
+    photo: ferillo,
+  },
+  {
+    name: "Professor Krassanai Wangrangsimakul",
+    photo: krassanai,
+  },
+  {
+    name: "Professor Frederick Charles Smales",
+    photo: frederick,
+  },
+]
 
 class HomepageSpeaker extends React.Component {
   render() {
@@ -15,13 +46,14 @@ class HomepageSpeaker extends React.Component {
           </div>
           <div className="row">
           {
-            speakerData.map((key) => (
+            speakerData.map((data) => (
               <div
-                key={ key }
-                className="col-md-4"
+                key={ data.name }
+                className="col-md-3"
               >
                 <Avatar
-                  name="Professor John Doe"
+                  name={ data.name }
+                  photo={ data.photo }
                 />
               </div>
             ))

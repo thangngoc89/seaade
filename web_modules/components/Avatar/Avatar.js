@@ -1,15 +1,21 @@
 import React, { PropTypes }  from "react"
 import { Link } from "statinamic/lib/Link"
 import styles from "./Avatar.scss"
+import cx from "classnames"
 
-const Avatar = ({ name, link }) => {
+const Avatar = ({ name, link, photo }) => {
+  const imgSrc = photo ? photo : "https://placehold.it/300x300"
+  const imgClass = cx("img-responsive center-block", {
+    [styles.img]: true
+  })
+
   return (
     <div className="speaker">
       <Link to={ link }>
         <figure>
           <img
-            className="img-responsive center-block"
-            src="https://placehold.it/300x300"
+            className={ imgClass }
+            src={ imgSrc }
           />
         </figure>
         <h4 className={ styles.name }>{ name }</h4>

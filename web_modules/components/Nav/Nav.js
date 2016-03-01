@@ -3,7 +3,6 @@ import cx from "classnames"
 import { Link } from "statinamic/lib/Link"
 
 import styles from "./Nav.scss"
-// import logo from "./logo.png"
 
 class Nav extends Component {
   constructor(props) {
@@ -59,17 +58,13 @@ class Nav extends Component {
     })
     return (
       <nav id="site-nav" className={ navClass }>
-        <div className="container">
+        <div className="container-fluid">
           <div className="navbar-header">
             <div className="site-branding">
               <Link
                 to="/"
                 className="logo"
               >
-                {/* <img
-                  className={ styles.logoImg }
-                  src={ logo }
-                /> */}
                 SEAADE 2016
               </Link>
             </div>
@@ -89,13 +84,20 @@ class Nav extends Component {
                 <Link to="/" activeClassName="active">Home</Link>
               </li>
               <li>
-                <Link to="/about/" activeClassName="active">About</Link>
+                <Link to="/important-dates/" activeClassName="active">Important Dates</Link>
               </li>
-              <li>
-                <Link to="/important-date/" activeClassName="active">Important Date</Link>
-              </li>
-              <li>
-                <Link to="/planning/" activeClassName="active">Planning</Link>
+              <li className="dropdown">
+                <Link
+                  to="/events/"
+                  className="dropdown-toggle"
+                  activeClassName="active"
+                >
+                  Events <span className="caret"></span>
+                </Link>
+                <ul className="dropdown-menu">
+                  <li><Link to="/scientific-program/" activeClassName="active">Scientific Program</Link></li>
+                  <li><Link to="/events/" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
+                </ul>
               </li>
               <li>
                 <Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link>
@@ -105,6 +107,12 @@ class Nav extends Component {
               </li>
               <li>
                 <Link to="/general-info/" activeClassName="active">General Info</Link>
+              </li>
+              <li>
+                <Link to="/sponsors/" activeClassName="active">Sponsors</Link>
+              </li>
+              <li>
+                <Link to="/contact/" activeClassName="active">Contact</Link>
               </li>
             </ul>
           </div>
