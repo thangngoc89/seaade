@@ -6,6 +6,12 @@
   margin: 2rem 0 auto;
 }
 
+@media (min-width: 768px) {
+  .mainCol {
+    padding: 0 3rem;
+  }
+}
+
 .content {
   text-align: justify;
 
@@ -21,7 +27,9 @@
 
   img {
     display: block;
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
+    padding: 1rem 0;
   }
 }
