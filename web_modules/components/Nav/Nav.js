@@ -37,42 +37,26 @@ export default class NavComponent extends Component {
       <Navbar fluid fixedTop className={ navClass }>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link
-              to="/"
-              className={styles.logo}
-            >
-              SEAADE 2016
-            </Link>
+            <Link to="/" className={styles.logo}>SEAADE 2016 </Link>
           </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <li>
-              <Link to="/" activeClassName="active">Home</Link>
-            </li>
-            <li>
-              <Link to="/important-dates/" activeClassName="active">Important Dates</Link>
-            </li>
+            <li><Link to="/" activeClassName="active">Home</Link></li>
+            <li><Link to="/important-dates/" activeClassName="active">Important Dates</Link></li>
             <NavDropdown title="Events">
               <li><Link to="/events/scientific-program/" activeClassName="active">Scientific Program</Link></li>
               <li><Link to="/events/gc-prevention-table" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
             </NavDropdown>
-            <li>
-              <Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link>
-            </li>
-            <li>
-              <Link to="/registration/" activeClassName="active">Registration</Link>
-            </li>
-            <li>
-              <Link to="/general-info/" activeClassName="active">General Info</Link>
-            </li>
-            <li>
-              <Link to="/sponsors/" activeClassName="active">Sponsors</Link>
-            </li>
-            <li>
-              <Link to="/contact/" activeClassName="active">Contact</Link>
-            </li>
+            <li><Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link></li>
+            <li><Link to="/registration/" activeClassName="active">Registration</Link></li>
+            <NavDropdown title="General Info">
+              <li><Link to="/info/travel" activeClassName="active">Travel information</Link></li>
+              <li><Link to="/info/useful" activeClassName="active">Useful information</Link></li>
+            </NavDropdown>
+            <li><Link to="/sponsors/" activeClassName="active">Sponsors</Link></li>
+            <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
