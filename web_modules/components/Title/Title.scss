@@ -4,6 +4,7 @@
 	background: url(./vung-tau.jpg) no-repeat center center / cover;
 	color: #fff;
 	position: relative;
+  min-height: 430px;
 
 	&::before {
 		background-color: rgba(0, 0, 0, 0.6);
