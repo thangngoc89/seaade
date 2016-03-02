@@ -31,20 +31,16 @@ export default {
         ),
       },
       {
-        test: /\global.styles$/,
+        test: /global.styles$/,
         loader: ExtractTextPlugin.extract(
           "style-loader",
-          "css-loader" +
-          "!" +
-          "sass-loader",
+          "css-loader!sass-loader",
         ),
       },
       {
         test: /\.(html|ico|jpe?g|png|gif|svg|eot)$/,
         include: /web_modules/,
-        loader: "file-loader" +
-          "?name=[hash:base64].[ext]&context=" +
-          path.join(config.cwd, config.destination),
+        loader: "file-loader?name=[hash:base64].[ext]",
       },
     ],
   },
