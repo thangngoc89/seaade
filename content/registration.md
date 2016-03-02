@@ -10,7 +10,6 @@ If you have any special request for foods, please feel free to contact us by ema
 
 ![](/assets/registration/meeting_fee.jpg)
 
-
 # Accommondation fee
 
 _Note: included VAT & 5% service charge_
