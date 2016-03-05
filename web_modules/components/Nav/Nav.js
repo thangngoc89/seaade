@@ -45,13 +45,19 @@ export default class NavComponent extends Component {
           <Nav pullRight>
             <li><Link to="/" activeClassName="active">Home</Link></li>
             <li><Link to="/important-dates/" activeClassName="active">Important Dates</Link></li>
-            <NavDropdown title="Events">
+            <NavDropdown
+              id="events"
+              title="Events"
+            >
               <li><Link to="/events/scientific-program/" activeClassName="active">Scientific Program</Link></li>
               <li><Link to="/events/gc-prevention-table" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
             </NavDropdown>
             <li><Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link></li>
             <li><Link to="/registration/" activeClassName="active">Registration</Link></li>
-            <NavDropdown title="General Info">
+            <NavDropdown
+              id="info"
+              title="General Info"
+            >
               <li><Link to="/info/travel" activeClassName="active">Travel information</Link></li>
               <li><Link to="/info/useful" activeClassName="active">Useful information</Link></li>
             </NavDropdown>
