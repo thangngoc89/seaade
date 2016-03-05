@@ -5,7 +5,6 @@ import Header from "./components/Header"
 import About from "./components/About"
 import WelcomeMessages from "./components/WelcomeMessages"
 import Facts from "./components/Facts"
-import Speaker from "./components/Speaker"
 import Schedule from "./components/HomepageSchedule"
 import Sponsors from "./components/Sponsors"
 import Map from "./components/Map"
@@ -41,7 +40,6 @@ export default class Page extends Component {
         <About />
         <WelcomeMessages />
         <Facts />
-        <Speaker />
         <Schedule />
         <Sponsors />
         <Map />

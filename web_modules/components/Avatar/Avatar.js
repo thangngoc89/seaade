@@ -16,14 +16,17 @@ const Avatar = ({ name, link, photo }) => {
             src={ imgSrc }
           />
         </figure>
-        <h4 className={ styles.name }>{ name }</h4>
+        {
+          name &&
+          <h4 className={ styles.name }>{ name }</h4>
+        }
       </Link>
     </div>
   )
 }
 
 Avatar.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   link: PropTypes.string,
 }
 

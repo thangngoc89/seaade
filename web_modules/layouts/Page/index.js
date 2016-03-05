@@ -13,7 +13,8 @@ export default class Page extends Component {
     __filename: PropTypes.string.isRequired,
     __url: PropTypes.string.isRequired,
     head: PropTypes.object.isRequired,
-    body: PropTypes.string.isRequired,
+    body: PropTypes.string,
+    mainColClass: PropTypes.string,
   };
 
   static contextTypes = {
@@ -54,17 +55,18 @@ export default class Page extends Component {
           subtitle={ head.subtitle }
         />
         <div className="container">
+        {
+          body &&
           <div className="row">
             <div className={ styles.mainCol }>
-            {
-              body &&
               <div
                 className={ styles.content }
                 dangerouslySetInnerHTML={ { __html: body } }
               ></div>
-            }
             </div>
           </div>
+        }
+        { this.props.children }
         </div>
       </div>
     )
