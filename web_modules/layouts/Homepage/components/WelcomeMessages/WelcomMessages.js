@@ -1,17 +1,21 @@
 import React from "react"
 import Avatar from "../../../../components/Avatar"
-import tdTuan from "./trandieptuan.jpg"
+import tuan from "./img/tuan.jpg"
+import lan from "./img/lan.jpg"
+import mohamed from "./img/mohamed.jpg"
 
 const messages = [
   {
     name: "President of SEAADE",
+    photo: mohamed,
   },
   {
     name: "Presient of University of Medicine and pharmacy, Ho Chi Minh City",
-    photo: tdTuan,
+    photo: tuan,
   },
   {
     name: "Chairperson of the local organizing committee",
+    photo: lan,
   },
 ]
 

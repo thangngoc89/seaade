@@ -1,18 +1,17 @@
-import React, { Component, PropTypes } from "react"
+import React, { Component } from "react"
 import Page from "../Page"
 import data from "./data"
-import Avatar from "../../components/Avatar"
 import styles from "./Speakers.scss"
 
 class SpeakersPage extends Component {
   render() {
     return (
       <Page
-       head={{
-         title: "Speakers"
-       }}
-       __filename="speakers.md"
-       __url="/speakers"
+        head={ {
+          title: "Speakers",
+        } }
+        __filename="speakers.md"
+        __url="/speakers"
       >
       {
         data.map((item) => (
@@ -22,7 +21,7 @@ class SpeakersPage extends Component {
           >
             <div className="col-xs-4">
               <img
-                className={styles.avatar}
+                className={ styles.avatar }
                 src={ item.photo }
               />
             </div>

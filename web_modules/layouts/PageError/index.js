@@ -24,8 +24,8 @@ export default class PageError extends Component {
 
     return (
       <div>
-        <Helmet title={title} />
-        <Title title={title} />
+        <Helmet title={ title } />
+        <Title title={ title } />
         <div className={ styles.container }>
           <div className={ styles.oops }>{ '😱 Oooops!' }</div>
           <div className={ styles.text }>

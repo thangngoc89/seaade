@@ -37,9 +37,9 @@ export default class NavDockable extends Component {
     }
   }
 
-  render () {
+  render() {
     return (
-      <Nav docked={this.state.docked} />
+      <Nav docked={ this.state.docked } />
     )
   }
 }

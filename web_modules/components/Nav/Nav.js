@@ -37,7 +37,7 @@ export default class NavComponent extends Component {
       <Navbar fluid fixedTop className={ navClass }>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/" className={styles.logo}>SEAADE 2016 </Link>
+            <Link to="/" className={ styles.logo }>SEAADE 2016 </Link>
           </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
