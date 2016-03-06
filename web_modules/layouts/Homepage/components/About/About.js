@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./About.scss"
+import aboutImg from "./about-seaade.jpg"
 
 class HomepageAbout extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class HomepageAbout extends React.Component {
               <figure>
                 <img
                   className="img-responsive"
-                  src="https://placehold.it/600x200"
+                  src={ aboutImg }
                 />
               </figure>
             </div>
