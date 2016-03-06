@@ -11,10 +11,12 @@
     "start": "npm run statinamic -- --server --open --dev",
     "build": "npm run statinamic -- --static --production",
     "pretest": "npm run lint:js",
-    "test": "npm run build"
+    "test": "npm run build",
+    "deploy": "surge dist seaade.khoanguyen.me"
   },
   "statinamic": {
-    "CNAME": true
+    "CNAME": true,
+    "appcache": true
   },
   "babel": {
     "presets": [
