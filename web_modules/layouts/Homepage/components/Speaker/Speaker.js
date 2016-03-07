@@ -7,7 +7,8 @@ class HomepageSpeaker extends React.Component {
       <section id="speakers" className="section speakers">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-sm-12">
+              <h3 className="section-title">Speakers</h3>
               <div className={ styles.vid }>
                 <iframe
                   width="560"
