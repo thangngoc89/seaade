@@ -2,7 +2,7 @@
 title: Important Dates
 ---
 
-## SEAADE 2016: 8th & 9th September, 2016
+## SEAADE 2016: September 8<sup>th</sup> & 9<sup>th</sup> , 2016
 
 - Abstract for submission deadline: May 9th , 2016
 - Abstract notification deadline: June 9th , 2016
