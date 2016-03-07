@@ -5,6 +5,7 @@ import frederick from "./img/4-frederick.jpg"
 import ikuko from "./img/5-ikuko-morio.jpg"
 import krassanai from "./img/6-krasssanai.jpg"
 import chooi from "./img/7-toh-chooi-gait.jpg"
+import phuc from "./img/8-vu-minh-phuc.jpg"
 
 const speakerData = [
   {
@@ -34,6 +35,10 @@ const speakerData = [
   {
     name: "Professor Toh Chooi Gait",
     photo: chooi,
+  },
+  {
+    name: "A. Professor Vu Minh Phuc",
+    photo: phuc,
   },
 ]
 
