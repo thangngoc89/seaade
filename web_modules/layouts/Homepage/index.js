@@ -7,6 +7,7 @@ import WelcomeMessages from "./components/WelcomeMessages"
 import Facts from "./components/Facts"
 import Sponsors from "./components/Sponsors"
 import Map from "./components/Map"
+import Speakers from "./components/Speaker"
 
 export default class Page extends Component {
 
@@ -39,6 +40,7 @@ export default class Page extends Component {
         <About />
         <WelcomeMessages />
         <Facts />
+        <Speakers />
         <Sponsors />
         <Map />
       </div>
