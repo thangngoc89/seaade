@@ -15,10 +15,15 @@ class HomepageAbout extends React.Component {
           <div className="row">
             <div className="col-sm-6">
               <figure>
-                <img
-                  className="img-responsive"
-                  src={ aboutImg }
-                />
+                <a
+                  href="http://www.seaade.org/History/history.html"
+                  target="_blank"
+                >
+                  <img
+                    className="img-responsive"
+                    src={ aboutImg }
+                  />
+                </a>
               </figure>
             </div>
             <div className="col-sm-6">
@@ -28,7 +33,8 @@ class HomepageAbout extends React.Component {
                 During the IADR (South East Asian Division) meetings in the late eighties this idea was
                 discussed and accepted. The delegates who attended these meetings then, proposed that an
                 association be set up to further develop the close relationship of the member countries
-                in the education field.
+                in the education field. This will provide a more formal platform in which problems of
+                dental education and research could be discussed.
               </p>
             </div>
           </div>
