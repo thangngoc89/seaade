@@ -24,7 +24,7 @@ const speakerData = [
     photo: dolan,
   },
   {
-    name: "Professor Patrick J. Ferrillo",
+    name: "Prof. Patrick J. Ferrillo",
     info: [
       "Jr., B.S., DDS,",
       "University of the Pacific, Arthur A. Dugoni School of Dentistry (Pacific Dugoni), USA",
@@ -32,30 +32,52 @@ const speakerData = [
     photo: ferillo,
   },
   {
-    name: "Professor Frederick Charles Smales",
-    uni: "BSc (Hons) (Dunelm), BDS (U.Ncle), PhD (London), FDSRCS (England and Edinburgh), FHKAM (Dental Surgery), FCDSHK (Periodontology), England",
+    name: "Prof. Frederick Charles Smales",
+    info: [
+      "BSc (Hons) (Dunelm), BDS (U.Ncle), PhD (London),",
+      "FDSRCS (England and Edinburgh), FHKAM (Dental Surgery), FCDSHK (Periodontology),",
+      "England",
+    ],
     photo: frederick,
   },
   {
-    name: "Professor Krassanai Wangrangsimakul",
-    uni: "BSc (Medical Science), DDS, FFDRCS(Ireland), FIAOMS, FRCDS(Thailand),",
+    name: "Prof. Krassanai Wangrangsimakul",
+    info: [
+      "BSc (Medical Science), DDS,",
+      "FFDRCS(Ireland), FIAOMS, FRCDS(Thailand),",
+      "Diplomat Oral &Maxillo-facial Surgery, Thailand",
+    ],
     photo: krassanai,
   },
   {
-    name: "Professor Ikuko Morio",
-    title: "DDS, PhD",
-    uni: "Tokyo Medical and Dental University (TMDU)",
-    // Graduate School of Medical and Dental Sciences
+    name: "Prof. Ikuko Morio",
+    info: [
+      "DDS, PhD",
+      "Tokyo Medical and Dental University (TMDU)",
+      "Graduate School of Medical and Dental Sciences",
+      "Dental Education Development",
+      "Japan",
+    ],
 
-// Dental Education Development"
     photo: ikuko,
   },
   {
-    name: "Professor Toh Chooi Gait",
+    name: "Prof. Toh Chooi Gait",
+    info: [
+      "BDS Hons.(S’pore), MSc(London), FDSRCPS(Glasgow),",
+      "DRDRCS(Edin), FDSRCS(Edin), FAMM, AAScM",
+      "Malaysia",
+
+    ],
     photo: chooi,
   },
   {
-    name: "A. Professor Vu Minh Phuc",
+    name: "Assoc. Prof. Vu Minh Phuc",
+    info: [
+      "M.D., PhD.",
+      "University of Medicine and Pharmacy",
+      "Viet Nam",
+    ],
     photo: phuc,
   },
 ]
