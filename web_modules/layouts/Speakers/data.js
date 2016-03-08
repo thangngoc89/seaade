@@ -6,24 +6,9 @@ import ikuko from "./img/5-ikuko-morio.jpg"
 import krassanai from "./img/6-krasssanai.jpg"
 import chooi from "./img/7-toh-chooi-gait.jpg"
 import phuc from "./img/8-vu-minh-phuc.jpg"
+import stephen from "./img/9-stephen.jpg"
 
 const speakerData = [
-  {
-    name: "Assoc. Prof. Cherdsak Iramaneerat",
-    info: [
-      "M.D., M.H.P.E., Ph.D.",
-      "Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand",
-    ],
-    photo: cherdsak,
-  },
-  {
-    name: "Prof. Tereesa A. Dolan",
-    info: [
-      "D.D.S, M.P.H.",
-      "Dean Emeritus, University of Florida, College of Dentistry, USA",
-    ],
-    photo: dolan,
-  },
   {
     name: "Prof. Patrick J. Ferrillo",
     info: [
@@ -32,15 +17,16 @@ const speakerData = [
     ],
     photo: ferillo,
   },
+
   {
-    name: "Prof. Frederick Charles Smales",
+    name: "Prof. Tereesa A. Dolan",
     info: [
-      "BSc (Hons) (Dunelm), BDS (U.Ncle), PhD (London),",
-      "FDSRCS (England and Edinburgh), FHKAM (Dental Surgery), FCDSHK (Periodontology),",
-      "England",
+      "D.D.S, M.P.H.",
+      "Dean Emeritus, University of Florida, College of Dentistry, USA",
     ],
-    photo: frederick,
+    photo: dolan,
   },
+
   {
     name: "Prof. Krassanai Wangrangsimakul",
     info: [
@@ -50,6 +36,38 @@ const speakerData = [
     ],
     photo: krassanai,
   },
+
+  {
+    name: "Prof. Frederick Charles Smales",
+    info: [
+      "BSc (Hons) (Dunelm), BDS (U.Ncle), PhD (London),",
+      "FDSRCS (England and Edinburgh), FHKAM (Dental Surgery), FCDSHK (Periodontology),",
+      "England",
+    ],
+    photo: frederick,
+  },
+
+  {
+    name: "Prof. Toh Chooi Gait",
+    info: [
+      "BDS Hons.(S’pore), MSc(London), FDSRCPS(Glasgow),",
+      "DRDRCS(Edin), FDSRCS(Edin), FAMM, AAScM",
+      "Malaysia",
+
+    ],
+    photo: chooi,
+  },
+
+  {
+    name: "Assoc. Prof. Cherdsak Iramaneerat",
+    info: [
+      "M.D., M.H.P.E., Ph.D.",
+      "Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand",
+    ],
+    photo: cherdsak,
+  },
+
+
   {
     name: "Prof. Ikuko Morio",
     info: [
@@ -62,16 +80,19 @@ const speakerData = [
 
     photo: ikuko,
   },
-  {
-    name: "Prof. Toh Chooi Gait",
-    info: [
-      "BDS Hons.(S’pore), MSc(London), FDSRCPS(Glasgow),",
-      "DRDRCS(Edin), FDSRCS(Edin), FAMM, AAScM",
-      "Malaysia",
 
+  {
+    name: "Assoc. Prof. Stephen Hsu Chin-Ying ",
+    info: [
+      "DDS, MS, PhD",
+      "Department of Dentistry",
+      "National University of Singapore",
+      "Singapore",
     ],
-    photo: chooi,
+
+    photo: stephen,
   },
+
   {
     name: "Assoc. Prof. Vu Minh Phuc",
     info: [
