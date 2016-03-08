@@ -9,9 +9,9 @@ const messages = [
     name: "President of SEAADE",
     photo: mohamed,
   },
+  
   {
     name: "The President of University of Medicine and pharmacy, Ho Chi Minh City",
-
     photo: tuan,
   },
   {
