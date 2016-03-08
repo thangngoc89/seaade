@@ -7,7 +7,7 @@ class HomepageHeader extends React.Component {
     return (
       <header className={ styles.header }>
         <div className={ styles.intro }>
-          <h1>Dental education in ASEAN</h1>
+          <h1>Dental education in ASIA</h1>
           <h2>"one community, one vision"</h2>
           <p>
             September 8<sup>th</sup> - 9<sup>th</sup>, 2016 / Ho Chi Minh City, Viet Nam
