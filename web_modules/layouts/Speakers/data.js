@@ -17,8 +17,9 @@ const speakerData = [
     photo: cherdsak,
   },
   {
-    name: "Prof. Tereesa A. Dolanand",
+    name: "Prof. Tereesa A. Dolan",
     info: [
+      "D.D.S, M.P.H.",
       "Dean Emeritus, University of Florida, College of Dentistry, USA",
     ],
     photo: dolan,
