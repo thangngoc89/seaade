@@ -17,7 +17,6 @@ const speakerData = [
     ],
     photo: ferillo,
   },
-
   {
     name: "Prof. Tereesa A. Dolan",
     info: [
@@ -26,7 +25,6 @@ const speakerData = [
     ],
     photo: dolan,
   },
-
   {
     name: "Prof. Krassanai Wangrangsimakul",
     info: [
@@ -36,7 +34,6 @@ const speakerData = [
     ],
     photo: krassanai,
   },
-
   {
     name: "Prof. Frederick Charles Smales",
     info: [
@@ -46,7 +43,6 @@ const speakerData = [
     ],
     photo: frederick,
   },
-
   {
     name: "Prof. Toh Chooi Gait",
     info: [
@@ -57,7 +53,6 @@ const speakerData = [
     ],
     photo: chooi,
   },
-
   {
     name: "Assoc. Prof. Cherdsak Iramaneerat",
     info: [
@@ -66,8 +61,6 @@ const speakerData = [
     ],
     photo: cherdsak,
   },
-
-
   {
     name: "Prof. Ikuko Morio",
     info: [
@@ -77,10 +70,8 @@ const speakerData = [
       "Dental Education Development",
       "Japan",
     ],
-
     photo: ikuko,
   },
-
   {
     name: "Assoc. Prof. Stephen Hsu Chin-Ying ",
     info: [
@@ -89,10 +80,8 @@ const speakerData = [
       "National University of Singapore",
       "Singapore",
     ],
-
     photo: stephen,
   },
-
   {
     name: "Assoc. Prof. Vu Minh Phuc",
     info: [
