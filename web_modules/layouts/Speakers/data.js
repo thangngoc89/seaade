@@ -9,27 +9,45 @@ import phuc from "./img/8-vu-minh-phuc.jpg"
 
 const speakerData = [
   {
-    name: "A. Professor Cherdsak Iramameerat",
+    name: "Assoc. Prof. Cherdsak Iramaneerat",
+    info: [
+      "M.D., M.H.P.E., Ph.D.",
+      "Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand",
+    ],
     photo: cherdsak,
   },
   {
-    name: "Professor Tereesa A. Dolanand",
+    name: "Prof. Tereesa A. Dolanand",
+    info: [
+      "Dean Emeritus, University of Florida, College of Dentistry, USA",
+    ],
     photo: dolan,
   },
   {
     name: "Professor Patrick J. Ferrillo",
+    info: [
+      "Jr., B.S., DDS,",
+      "University of the Pacific, Arthur A. Dugoni School of Dentistry (Pacific Dugoni), USA",
+    ],
     photo: ferillo,
   },
   {
     name: "Professor Frederick Charles Smales",
+    uni: "BSc (Hons) (Dunelm), BDS (U.Ncle), PhD (London), FDSRCS (England and Edinburgh), FHKAM (Dental Surgery), FCDSHK (Periodontology), England",
     photo: frederick,
   },
   {
     name: "Professor Krassanai Wangrangsimakul",
+    uni: "BSc (Medical Science), DDS, FFDRCS(Ireland), FIAOMS, FRCDS(Thailand),",
     photo: krassanai,
   },
   {
     name: "Professor Ikuko Morio",
+    title: "DDS, PhD",
+    uni: "Tokyo Medical and Dental University (TMDU)",
+    // Graduate School of Medical and Dental Sciences
+
+// Dental Education Development"
     photo: ikuko,
   },
   {

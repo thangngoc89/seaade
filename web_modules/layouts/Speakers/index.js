@@ -28,6 +28,7 @@ class SpeakersPage extends Component {
               </div>
               <div className={ styles.infoCol }>
                 <p className={ styles.name }>{ item.name }</p>
+                { item.info }
               </div>
             </div>
           </div>

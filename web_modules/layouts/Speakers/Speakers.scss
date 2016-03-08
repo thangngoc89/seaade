@@ -19,5 +19,11 @@
 
 .infoCol {
   @extend .col-xs-8;
+  font-size: 1.5rem;
+  // white-space: nowrap;
   text-align: center;
+
+  span {
+    display: block;
+  }
 }
