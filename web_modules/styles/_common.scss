@@ -19,6 +19,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+@media (min-width: 1920px) {
+	body {
+		font-size: 22px !important;
+	}
+}
+
 a {
 	color: #000;
 	&:focus {
@@ -67,7 +73,7 @@ p {
 .btn {
 	border: 0;
 	border-radius: 0;
-	padding: 6px 28px;
+	padding: 0.375rem 1.75rem;
 	text-transform: uppercase;
 	transform: translateZ(0);
 	backface-visibility: hidden;
@@ -82,9 +88,9 @@ p {
 .form-control {
 	border-radius: 0;
 	box-shadow: none;
-	height: 48px;
-	padding: 10px 12px;
-	font-size: 16px;
+	height: 3rem;
+	padding: 0.625rem 0.75rem;
+	font-size: 1rem;
 	line-height: 1.6;
 	&:focus {
 		box-shadow: none;
