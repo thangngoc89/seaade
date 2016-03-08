@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "statinamic/lib/Link"
 import styles from "./Header.scss"
 import "smoothscroll"
 

@@ -4,6 +4,7 @@ import Helmet from "react-helmet"
 import "../styles/global.styles"
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
+import "smoothscroll"
 
 export default class Layout extends Component {
 
