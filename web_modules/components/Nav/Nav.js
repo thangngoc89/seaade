@@ -50,7 +50,8 @@ export default class NavComponent extends Component {
               title="Events"
             >
               <li><Link to="/events/scientific-program/" activeClassName="active">Scientific Program</Link></li>
-              <li><Link to="/events/gc-prevention-table" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
+              <li><Link to="/events/gc-prevention-table/" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
+              <li><Link to="/speakers/" activeClassName="active">Keynote speakers</Link></li>
             </NavDropdown>
             <li><Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link></li>
             <li><Link to="/registration/" activeClassName="active">Registration</Link></li>

@@ -8,7 +8,7 @@ class SpeakersPage extends Component {
     return (
       <Page
         head={ {
-          title: "Speakers",
+          title: "Keynote Speakers",
         } }
         __filename="speakers.md"
         __url="/speakers"
@@ -19,14 +19,17 @@ class SpeakersPage extends Component {
             key={ item.name }
             className="row"
           >
-            <div className="col-xs-4">
-              <img
-                className={ styles.avatar }
-                src={ item.photo }
-              />
-            </div>
-            <div className="col-xs-8">
-              { item.name }
+            <div className={ styles.row }>
+              <div className={ "col-xs-12 col-md-4 " + styles.imgCol }>
+                <img
+                  className={ styles.avatar }
+                  src={ item.photo }
+                />
+              </div>
+              <div className={ "col-xs-12 col-md-8 " + styles.infoCol }>
+                <p className={ styles.name }>{ item.name }</p>
+                { item.info }
+              </div>
             </div>
           </div>
         ))

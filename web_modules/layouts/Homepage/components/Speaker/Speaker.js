@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Speaker.scss"
+import { Link } from "statinamic/lib/Link"
 
 class HomepageSpeaker extends React.Component {
   render() {
@@ -17,6 +18,11 @@ class HomepageSpeaker extends React.Component {
                   frameBorder="0"
                   allowFullScreen
                 />
+              </div>
+              <div className={ styles.detail }>
+                <Link className="btn btn-lg btn-black" to="/speakers/">
+                  View details
+                </Link>
               </div>
             </div>
           </div>
