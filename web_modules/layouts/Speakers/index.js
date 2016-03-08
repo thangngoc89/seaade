@@ -19,14 +19,16 @@ class SpeakersPage extends Component {
             key={ item.name }
             className="row"
           >
-            <div className="col-xs-4">
-              <img
-                className={ styles.avatar }
-                src={ item.photo }
-              />
-            </div>
-            <div className="col-xs-8">
-              { item.name }
+            <div className={ styles.row }>
+              <div className="col-xs-4">
+                <img
+                  className={ styles.avatar }
+                  src={ item.photo }
+                />
+              </div>
+              <div className={ styles.infoCol }>
+                <p className={ styles.name }>{ item.name }</p>
+              </div>
             </div>
           </div>
         ))

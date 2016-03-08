@@ -1,5 +1,23 @@
+@import "bootstrap";
+
 .avatar {
-  width: 2rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
-  border: 0.25rem solid #fff;  
+}
+
+.row {
+  margin: 5rem 0;
+}
+
+// Tangerine
+.name {
+  font-family: 'Tangerine', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.infoCol {
+  @extend .col-xs-8;
+  text-align: center;
 }
