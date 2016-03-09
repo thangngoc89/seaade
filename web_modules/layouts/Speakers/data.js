@@ -86,7 +86,7 @@ const speakerData = [
     name: "Assoc. Prof. Vu Minh Phuc",
     info: [
       "M.D., Ph.D.",
-      "Head of Cardiovascular Department, Pediatric Hospital 1 – Ho Chi Minh City",
+      "Head of Cardiovascular Department, Pediatric Hospital 1",
       "Head of Pediatric Department",
       "University of Medicine and Pharmacy, Ho Chi Minh City",
       "Viet Nam",

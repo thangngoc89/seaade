@@ -6,16 +6,16 @@ import mohamed from "./img/mohamed.jpg"
 
 const messages = [
   {
-    name: "President of SEAADE",
+    name: "From Mohamed Ibrahim Abu Hassan President of SEAADE",
     photo: mohamed,
   },
   {
-    name: "From Tran Diep Tuan The President of University of Medicine and pharmacy, Ho Chi Minh City",
+    name: "From Tran Diep Tuan President of University of Medicine and pharmacy, Ho Chi Minh City",
 
     photo: tuan,
   },
   {
-    name: "Chairperson of the local organizing committee",
+    name: "From Ngo Thi Quynh Lan Chairperson of the local organizing committee",
     photo: lan,
   },
 ]
