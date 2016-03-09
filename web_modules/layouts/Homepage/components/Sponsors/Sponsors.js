@@ -15,25 +15,23 @@ class Sponsors extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-5">
+            <div className="col-sm-12 col-md-4">
               <img
                 className={ styles.img }
                 src={ logoPs }
               />
             </div>
-            <div className="col-sm-7">
+            <div className="col-sm-12 col-md-4">
               <img
                 className={ styles.img }
                 src={ logoDent }
               />
             </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-12">
-            <img
-              className={styles.img}
-              src={logoDMC}
-            />
+            <div className="col-sm-12 col-md-4">
+              <img
+                className={ styles.img }
+                src={ logoDMC }
+              />
             </div>
           </div>
         </div>
