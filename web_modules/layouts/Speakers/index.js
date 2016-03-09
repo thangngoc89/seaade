@@ -27,7 +27,7 @@ class SpeakersPage extends Component {
                 />
               </div>
               <div className={ "col-xs-12 col-md-8 " + styles.infoCol }>
-                <p className={ styles.name }>{ item.name }</p>
+                <span className={ styles.name }>{ item.name }</span>
                 { item.info }
               </div>
             </div>
