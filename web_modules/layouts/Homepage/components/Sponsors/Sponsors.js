@@ -30,11 +30,11 @@ class Sponsors extends React.Component {
           </div>
           <div className="row">
             <div className="col-sm-12">
-            <img className={styles.img}
-            src={logoDMC}
+            <img
+              className={styles.img}
+              src={logoDMC}
             />
             </div>
-
           </div>
         </div>
       </section>
