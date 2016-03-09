@@ -43,7 +43,7 @@ export default class NavComponent extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <li><Link to="/" activeClassName="active">Home</Link></li>
+            <li><Link to="/about-faculty/" activeClassName="active">About Faculty</Link></li>
             <li><Link to="/important-dates/" activeClassName="active">Important Dates</Link></li>
             <NavDropdown
               id="events"
