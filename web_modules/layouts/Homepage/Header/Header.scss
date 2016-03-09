@@ -19,6 +19,17 @@
 		left: 0;
 		background-color: rgba(0, 0, 0, 0.5);
 	}
+
+  &::after {
+    content: "photo by Mai Tran";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+    padding: 0.5rem;
+  }
 }
 
 .intro {
