@@ -9,7 +9,11 @@ class Footer extends React.Component {
           <div className="row">
             <div className="col-md-12">
               <p className={ styles.info }>
-                Copyright © 2016, <a href="http://khoanguyen.me">Khoa Nguyen</a>
+                Copyright © 2016, <a href="http://khoanguyen.me">Khoa Nguyen</a><br/>
+                <a href="http://rhm-yds.edu.vn"> Faculty of Odonto-Stomatology</a><br/>
+                University of Medicine and Pharmacy, Ho Chi Minh City<br/>
+                Vietnam
+
               </p>
             </div>
           </div>
