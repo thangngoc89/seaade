@@ -7,7 +7,7 @@ import WelcomeMessages from "./WelcomeMessages"
 import Facts from "./Facts"
 import Sponsors from "./Sponsors"
 import Map from "./Map"
-import SpeakersVideo from "./SpeakerVideo"
+import SpeakersVideo from "./SpeakersVideo"
 
 export default class Page extends Component {
 
