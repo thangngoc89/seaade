@@ -3,7 +3,7 @@ import { Link } from "statinamic/lib/Link"
 import styles from "./Avatar.scss"
 import cx from "classnames"
 
-const Avatar = ({ name, link, photo }) => {
+const Avatar = ({ name, link, subTitle, photo }) => {
   const imgSrc = photo ? photo : "https://placehold.it/300x300"
   const imgClass = cx("img-responsive center-block", styles.img)
 
@@ -20,18 +20,20 @@ const Avatar = ({ name, link, photo }) => {
           name &&
           <h4 className={ styles.name }>{ name }</h4>
         }
+        {
+          subTitle &&
+          <p className={ styles.subTitle }>{ subTitle }</p>
+        }
       </Link>
     </div>
   )
 }
 
 Avatar.propTypes = {
-  name: PropTypes.string,
-  link: PropTypes.string,
-}
-
-Avatar.defaultProps = {
-  link: "/",
+  name: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  photo: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
 }
 
 export default Avatar
