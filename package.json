@@ -103,6 +103,7 @@
     "classnames": "^2.2.3",
     "node-sass": "^3.4.2",
     "react-bootstrap": "^0.28.3",
+    "react-window-resize-listener": "^1.0.0",
     "sass-loader": "^3.1.2",
     "smoothscroll": "^0.2.2"
   }

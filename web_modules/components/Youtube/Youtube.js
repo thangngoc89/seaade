@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from "react"
 import styles from "./Youtube.scss"
+import { WindowResizeListener } from "react-window-resize-listener"
 
 export default class Youtube extends Component {
   static propTypes = {
@@ -13,6 +14,7 @@ export default class Youtube extends Component {
     }
 
     this.handleClick = this.handleClick.bind(this)
+    this.setComponentHeight = this.setComponentHeight.bind(this)
   }
 
   componentDidMount() {
@@ -53,6 +55,9 @@ export default class Youtube extends Component {
           backgroundImage: `url("${ this.imgUrl }")`,
         } }
       >
+        <WindowResizeListener
+          onResize={ () => this.setComponentHeight() }
+        />
         {
           this.state.loaded &&
           <iframe
