@@ -36,7 +36,7 @@ class Sponsors extends Component {
           </div>
         </div>
       </section>
-      )
+    )
   }
 }
 
