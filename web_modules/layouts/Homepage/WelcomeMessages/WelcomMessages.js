@@ -1,5 +1,5 @@
 import React from "react"
-import Avatar from "../../../../components/Avatar"
+import Avatar from "../../../components/Avatar"
 import tuan from "./img/tuan.jpg"
 import lan from "./img/lan.jpg"
 import mohamed from "./img/mohamed.jpg"

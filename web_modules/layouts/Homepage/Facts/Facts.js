@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./Facts.scss"
-import Icon from "../../../../components/Icon"
+import Icon from "../../../components/Icon"
 
 class Facts extends React.Component {
   render() {
