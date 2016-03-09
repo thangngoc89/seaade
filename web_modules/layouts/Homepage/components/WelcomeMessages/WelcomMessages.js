@@ -10,7 +10,7 @@ const messages = [
     photo: mohamed,
   },
   {
-    name: "The President of University of Medicine and pharmacy, Ho Chi Minh City",
+    name: "From Tran Diep Tuan The President of University of Medicine and pharmacy, Ho Chi Minh City",
 
     photo: tuan,
   },

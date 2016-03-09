@@ -64,7 +64,7 @@ const speakerData = [
   {
     name: "Prof. Ikuko Morio",
     info: [
-      "DDS, PhD",
+      "DDS, Ph.D.",
       "Tokyo Medical and Dental University (TMDU)",
       "Graduate School of Medical and Dental Sciences",
       "Dental Education Development",
@@ -75,7 +75,7 @@ const speakerData = [
   {
     name: "Assoc. Prof. Stephen Hsu Chin-Ying ",
     info: [
-      "DDS, MS, PhD",
+      "DDS, MS, Ph.D.",
       "Department of Dentistry",
       "National University of Singapore",
       "Singapore",
@@ -85,8 +85,10 @@ const speakerData = [
   {
     name: "Assoc. Prof. Vu Minh Phuc",
     info: [
-      "M.D., PhD.",
-      "University of Medicine and Pharmacy",
+      "M.D., Ph.D.",
+      "Head of Cardiovascular Department, Pediatric Hospital 1 – Ho Chi Minh City",
+      "Head of Pediatric Department",
+      "University of Medicine and Pharmacy, Ho Chi Minh City",
       "Viet Nam",
     ],
     photo: phuc,
