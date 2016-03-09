@@ -1,8 +1,7 @@
 .wrapper {
 	border: 0;
 	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 	background-color: rgba(#000, 0.7);
 	transition: all 0.2s linear 0s;
 }
@@ -16,7 +15,7 @@
 
 .docked {
 	background-color: rgba(#000, 0.7) !important;
-	padding: 8px 0 0 0 !important;
+	padding: 10px 0 0 0 !important;
 	transition: all 0.2s linear 0s;
 }
 
