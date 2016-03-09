@@ -1,13 +1,13 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 
-import Header from "./components/Header"
-import About from "./components/About"
-import WelcomeMessages from "./components/WelcomeMessages"
-import Facts from "./components/Facts"
-import Sponsors from "./components/Sponsors"
-import Map from "./components/Map"
-import Speakers from "./components/Speaker"
+import Header from "./Header"
+import About from "./About"
+import WelcomeMessages from "./WelcomeMessages"
+import Facts from "./Facts"
+import Sponsors from "./Sponsors"
+import Map from "./Map"
+import Speakers from "./Speaker"
 
 export default class Page extends Component {
 
