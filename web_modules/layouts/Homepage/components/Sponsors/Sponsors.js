@@ -1,11 +1,15 @@
-import React from "react"
+import React, { Component } from "react"
+import cx from "classnames"
+
 import logoDent from "./logo-dentsply.png"
 import logoPs from "./logo-ps.png"
-import styles from "./Sponsors.scss"
 import logoDMC from "./logo-DMC.png"
 
-class Sponsors extends React.Component {
+import styles from "./Sponsors.scss"
+
+class Sponsors extends Component {
   render() {
+    const imgDiv = cx("col-sm-12", styles.imgDiv)
     return (
       <section className="section partner">
         <div className="container">
@@ -15,19 +19,15 @@ class Sponsors extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 col-md-4">
+            <div className={ imgDiv }>
               <img
                 className={ styles.img }
                 src={ logoPs }
               />
-            </div>
-            <div className="col-sm-12 col-md-4">
               <img
                 className={ styles.img }
                 src={ logoDent }
               />
-            </div>
-            <div className="col-sm-12 col-md-4">
               <img
                 className={ styles.img }
                 src={ logoDMC }

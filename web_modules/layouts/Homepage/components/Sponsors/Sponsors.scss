@@ -1,7 +1,13 @@
+.imgDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .img {
-  display: block;
-  max-width: 60%;
+  display: inline-block;
+  vertical-align: middle;
   margin: 0 auto;
   height: auto;
-  margin-top: 0.5rem;
+  margin: 0 3rem;
+  max-width: 25%;
 }
