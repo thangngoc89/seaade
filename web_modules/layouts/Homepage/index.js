@@ -7,7 +7,7 @@ import WelcomeMessages from "./WelcomeMessages"
 import Facts from "./Facts"
 import Sponsors from "./Sponsors"
 import Map from "./Map"
-import Speakers from "./Speaker"
+import SpeakersVideo from "./SpeakerVideo"
 
 export default class Page extends Component {
 
@@ -40,7 +40,7 @@ export default class Page extends Component {
         <About />
         <WelcomeMessages />
         <Facts />
-        <Speakers />
+        <SpeakersVideo />
         <Sponsors />
         <Map />
       </div>
