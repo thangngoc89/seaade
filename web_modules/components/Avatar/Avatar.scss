@@ -14,6 +14,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .name {
+    white-space: initial;
+  }
+}
+
 .subTitle {
   color: $color-text;
 }
