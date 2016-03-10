@@ -14,4 +14,6 @@ Fax: (+84) 8 3 8552 300
 
 Website: [rhm-yds.edu.vn](http://rhm-yds.edu.vn)
 
+Facebook: [Facebook.com/Seaade2016.vn](https://www.facebook.com/Seaade2016.VN/)
+
 Email: htrhung.rhm@gmail.com (Dr. Hoang Trong Hung)

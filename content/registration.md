@@ -16,6 +16,13 @@ _Note: included VAT & 5% service charge_
 
 ![](/assets/registration/accomondation_fee.jpg)
 
+[Website An Dong Windsor Plaza: windsorplazahotel.com](http://windsorplazahotel.com/)
+
+[Website Thien Hong Hotel: thienhonghotel.vn](http://www.thienhonghotel.vn/)
+
+Website An Dong Guest House: updating...
+
+
 Please click here to start your registration.
 
 <center>
@@ -38,4 +45,4 @@ If you need our assistance for submission, registration or other information, Pl
 
 # Contact Person:
 
-For registration related issue: cyber@dmc.com.vn
+For registration related issue: cyber@dmc.com.vn or htrhung.rhm@gmail.com (Dr. Hoang Trong Hung)

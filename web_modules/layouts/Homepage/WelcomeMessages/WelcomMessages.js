@@ -51,7 +51,7 @@ class HomepageWelcomeMessages extends React.Component {
           </div>
         </div>
       </section>
-      )
+    )
   }
 }
 
