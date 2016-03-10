@@ -16,4 +16,4 @@ Website: [rhm-yds.edu.vn](http://rhm-yds.edu.vn)
 
 Email: htrhung.rhm@gmail.com (Dr. Hoang Trong Hung)
 
-![](/assets/about faculty/poster.jpg)
+![](/assets/about_faculty/poster.jpg)
