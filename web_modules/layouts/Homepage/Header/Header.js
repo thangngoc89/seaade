@@ -6,6 +6,9 @@ class HomepageHeader extends React.Component {
   render() {
     return (
       <header className={ styles.header }>
+        <div className={ styles.photoCredit }>
+          photo by Mai Tran
+        </div>
         <div className={ styles.intro }>
           <h1>Dental education in ASIA</h1>
           <h2>"one community, one vision"</h2>
