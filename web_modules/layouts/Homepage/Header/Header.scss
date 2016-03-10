@@ -1,21 +1,17 @@
 @import "align";
 
-
 .logo {
-  position: relative;
   vertical-align: middle;
   margin: 0 auto;
   height: auto;
   max-width: 150px;
-
 }
 
 @media (max-width: 768px) {
   .logo {
-    max-width: 70px;
+    max-width: 100px;
   }
 }
-
 
 .photoCredit {
   position: absolute;
@@ -23,8 +19,16 @@
   right: 0;
   background-color: #000;
   opacity: 0.5;
-  color: #fff;
   padding: 0.5rem;
+
+  > a {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
 
 .header {
