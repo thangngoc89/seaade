@@ -1,21 +1,9 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
-import smoothScroll from "smoothscroll"
 import logoseaade from "./logo-seaade.png"
 import logokhoa from "./logo-khoa.png"
 
 class HomepageHeader extends Component {
-  constructor() {
-    super()
-    this.handleLearnMoreClick = this.handleLearnMoreClick.bind(this)
-  }
-
-  handleLearnMoreClick(e) {
-    e.preventDefault()
-    const element = document.getElementById("about")
-    smoothScroll(element)
-  }
-
   render() {
     return (
       <header className={ styles.header }>
@@ -25,8 +13,9 @@ class HomepageHeader extends Component {
         </div>
         <div className={ styles.intro }>
           <p>
-          <img className={ styles.logo }
-          src={ logokhoa }
+          <img
+            className={ styles.logo }
+            src={ logokhoa }
           />
           </p>
           <h1>The 27 <sup>th</sup> SEAADE annual meeting</h1>
@@ -38,9 +27,9 @@ class HomepageHeader extends Component {
             <p>hosted by Faculty of Odonto-Stomatology</p>
             <p>University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam</p>
           </div>
-
           <p>
-          <img className={ styles.logo }
+          <img
+            className={ styles.logo }
             src={ logoseaade }
           />
           </p>
