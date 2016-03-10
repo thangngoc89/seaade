@@ -33,7 +33,10 @@ class HomepageHeader extends Component {
             src={ logoseaade }
           />
           </p>
+
         </div>
+
+
       </header>
     )
   }
