@@ -24,3 +24,14 @@ if (module.hot) {
     mdContext.keys().forEach(requireUpdate)
   })
 }
+
+// Check if a new cache is available on page load.
+window.addEventListener("load", () => {
+  window.applicationCache.addEventListener("updateready", () => {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      if (confirm("A new version of this site is available. Load it?")) {
+        window.location.reload()
+      }
+    }
+  }, false)
+}, false)
