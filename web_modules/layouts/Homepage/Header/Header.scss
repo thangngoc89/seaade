@@ -7,9 +7,16 @@
   margin: 0 auto;
   height: auto;
   max-width: 150px;
-  margin: 0 auto;
 
+}
 
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px;
+  }
+  .hosted {
+    font-size: 0.4rem;
+  }
 }
 
 .photoCredit {
