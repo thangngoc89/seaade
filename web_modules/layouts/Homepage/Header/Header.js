@@ -1,8 +1,19 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
-import "smoothscroll"
+import smoothScroll from "smoothscroll"
 
 class HomepageHeader extends Component {
+  constructor () {
+    super()
+    this.handleLearnMoreClick = this.handleLearnMoreClick.bind(this)
+  }
+
+  handleLearnMoreClick (e) {
+    e.preventDefault()
+    const element = document.getElementById("about")
+    smoothScroll(element)
+  }
+
   render() {
     return (
       <header className={ styles.header }>
@@ -19,7 +30,13 @@ class HomepageHeader extends Component {
             <p>hosted by Faculty of Odonto-Stomatology</p>
             <p>University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam</p>
           </div>
-          <a href="#about" className="btn btn-white">Learn more</a>
+          <a
+            href="#about"
+            className="btn btn-white"
+            onClick={ this.handleLearnMoreClick }
+          >
+            Learn more
+          </a>
         </div>
       </header>
     )
