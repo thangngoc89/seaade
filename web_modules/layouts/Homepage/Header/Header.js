@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
 import logoseaade from "./logo-seaade.png"
-import logokhoa from "./Logo-khoa.png"
+import logokhoa from "./logo-khoa.png"
 
 class HomepageHeader extends Component {
   render() {
