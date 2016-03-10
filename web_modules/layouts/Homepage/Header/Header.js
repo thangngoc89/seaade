@@ -15,6 +15,10 @@ class HomepageHeader extends React.Component {
           <p>
             September 8<sup>th</sup> - 9<sup>th</sup>, 2016 / Ho Chi Minh City, Viet Nam
           </p>
+          <p className={ styles.hosted }>
+            hosted by Faculty of Odonto-Stomatology<br/>
+            University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam
+          </p>
           <a href="#about" className="btn btn-white">Learn more</a>
         </div>
       </header>
