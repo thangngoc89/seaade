@@ -9,5 +9,11 @@
   margin: 0 auto;
   height: auto;
   margin: 0 3rem;
-  max-width: 25%;
+  max-width: 20%;
+}
+
+@media (max-width: 768px) {
+  .img {
+    margin: 1rem 0.5rem;
+  }
 }
