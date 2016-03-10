@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
 import smoothScroll from "smoothscroll"
+import logoseaade from "./logo-seaade.png"
 
 class HomepageHeader extends Component {
   constructor () {
@@ -30,13 +31,12 @@ class HomepageHeader extends Component {
             <p>hosted by Faculty of Odonto-Stomatology</p>
             <p>University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam</p>
           </div>
-          <a
-            href="#about"
-            className="btn btn-white"
-            onClick={ this.handleLearnMoreClick }
-          >
-            Learn more
-          </a>
+        
+          <p>
+          <img className={styles.logo}
+            src={logoseaade}
+          />
+          </p>
         </div>
       </header>
     )

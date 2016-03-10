@@ -1,5 +1,17 @@
 @import "align";
 
+
+.logo {
+  position: relative;
+  vertical-align: middle;
+  margin: 0 auto;
+  height: auto;
+  max-width: 150px;
+  margin: 0 3rem;
+
+
+}
+
 .photoCredit {
   position: absolute;
   bottom: 0;
