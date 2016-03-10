@@ -42,7 +42,7 @@ export default class Youtube extends Component {
   }
 
   get imgUrl() {
-    return `http://img.youtube.com/vi/${ this.props.id }/maxresdefault.jpg`
+    return `//img.youtube.com/vi/${ this.props.id }/maxresdefault.jpg`
   }
 
   render() {
