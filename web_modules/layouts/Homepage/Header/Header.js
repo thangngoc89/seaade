@@ -20,7 +20,8 @@ class HomepageHeader extends Component {
     return (
       <header className={ styles.header }>
         <div className={ styles.photoCredit }>
-          photo by Mai Tran
+          <a href="https://www.flickr.com/photos/140911509@N08/">photo by Mai Tran
+          </a>
         </div>
         <div className={ styles.intro }>
           <p>
