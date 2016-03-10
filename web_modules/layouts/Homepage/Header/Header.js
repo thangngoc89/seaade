@@ -10,8 +10,10 @@ class HomepageHeader extends React.Component {
           photo by Mai Tran
         </div>
         <div className={ styles.intro }>
-          <h1>Dental education in ASIA</h1>
-          <h2>"one community, one vision"</h2>
+          <h1>The 27 <sup>th</sup> SEAADE annual meeting
+          </h1>
+          <h2>"Dental education in ASIA: One community, One vision"
+          </h2>
           <p>
             September 8<sup>th</sup> - 9<sup>th</sup>, 2016 / Ho Chi Minh City, Viet Nam
           </p>
