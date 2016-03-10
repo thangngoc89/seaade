@@ -5,12 +5,12 @@ import logoseaade from "./logo-seaade.png"
 import logokhoa from "./logo-khoa.png"
 
 class HomepageHeader extends Component {
-  constructor () {
+  constructor() {
     super()
     this.handleLearnMoreClick = this.handleLearnMoreClick.bind(this)
   }
 
-  handleLearnMoreClick (e) {
+  handleLearnMoreClick(e) {
     e.preventDefault()
     const element = document.getElementById("about")
     smoothScroll(element)
@@ -25,8 +25,8 @@ class HomepageHeader extends Component {
         </div>
         <div className={ styles.intro }>
           <p>
-          <img className={styles.logo}
-          src={logokhoa}
+          <img className={ styles.logo }
+          src={ logokhoa }
           />
           </p>
           <h1>The 27 <sup>th</sup> SEAADE annual meeting</h1>
@@ -40,8 +40,8 @@ class HomepageHeader extends Component {
           </div>
 
           <p>
-          <img className={styles.logo}
-            src={logoseaade}
+          <img className={ styles.logo }
+            src={ logoseaade }
           />
           </p>
         </div>
