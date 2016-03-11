@@ -6,20 +6,26 @@
 	margin-top: 2rem;
 }
 
+.fb,
 .info {
-	font-weight: 400;
-	text-align: left;
 	margin-bottom: 10px;
+
 	a {
 		color: #fff;
 	}
 }
-.fb {
-	font-weight: 400;
-	text-align: right;
-	margin-bottom: 10px;
-	a {
-		color: #fff;
-	}
 
+.fb {
+	text-align: right;
+}
+
+.info {
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.fb,
+	.info {
+		text-align: center;
+	}
 }
