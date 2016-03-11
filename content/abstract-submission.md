@@ -53,6 +53,6 @@ Slides should be written in English
 2. Poster Presentation: Poster – must be written in English in a 150 cm (height) x 90 cm (width).
 3. Submission
 
-If you have any further questions, please email to: Dr. Hoang Trong Hung (seaade2016@gmail.com)
+If you have any further questions, please email to: Dr. Hoang Trong Hung ([seaade2016@gmail.com](mailto:seaade2016@gmail.com))
 
 ## [Important dates to remember](/important-dates/)
