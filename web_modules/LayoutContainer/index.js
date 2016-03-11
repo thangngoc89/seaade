@@ -5,6 +5,8 @@ import "../styles/global.styles"
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
 
+import fbCover from "./cover.jpg"
+
 export default class Layout extends Component {
 
   static propTypes = {
@@ -25,6 +27,8 @@ export default class Layout extends Component {
         <Helmet
           meta={ [
             { property: "og:site_name", content: pkg.name },
+            { property: "og:image", content: "http://seaade2016.vn" + fbCover },
+            { property: "og:description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
           ] }
         />
         <Nav />

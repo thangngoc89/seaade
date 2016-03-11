@@ -26,8 +26,8 @@ export default class Page extends Component {
       { property: "og:type", content: "article" },
       { property: "og:title", content: title },
       { property: "og:url", content: pkg.homepage },
-      { property: "og:description", content: title },
-      { name: "description", content: title },
+      { property: "og:description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
+      { name: "description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
     ]
 
     return (

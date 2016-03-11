@@ -22,13 +22,15 @@ class HomepageHeader extends Component {
             src={ logokhoa }
           />
           </p>
-          <h1>The 27 <sup>th</sup> SEAADE annual meeting</h1>
+          <h1>The 27 <sup>th</sup> Annual Scientific Meeting<br/>
+          South East Asia Association For Dental Education (SEAADE)
+          </h1>
           <h2>"Dental education in ASIA: One community, One vision"</h2>
           <p>
             September 8<sup>th</sup> - 9<sup>th</sup>, 2016 / Ho Chi Minh City, Viet Nam
           </p>
           <div className={ styles.hosted }>
-            <p>hosted by Faculty of Odonto-Stomatology</p>
+            <p>Hosted by The Faculty of Odonto-Stomatology</p>
             <p>University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam</p>
           </div>
           <p>
