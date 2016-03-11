@@ -23,7 +23,7 @@ subtitle: Guideline for SEAADE Abstract Submission 2016
 
 1. The manuscript must not have been published elsewhere.
 2. Abstract should not exceed 300 words and must be written in English, typed in MS Word, Times News Roman font 12. Papers may be about dental education research articles or teaching-learning innovation reports. The title should be no more than 10 words and typed in capital. The full name of the authors and co-authors (omit Degrees) are written to be followed by name of the department and institution.
-3. Abstract should be submitted by online submission, please [CLICK HERE](http://seaade2016.org/uploads/documents/SEAADE2016-Abstract-Registration-Form.doc) to download **Abstract Registration Form**.
+3. Abstract should be submitted by online submission, please [CLICK HERE](/assets/download/SEAADE2016-Abstract-Registration-Form.doc) to download **Abstract Registration Form**.
 4. Registration Guideline Submission
 
 - Step 1: Click on the "Abstract submission online" button.
