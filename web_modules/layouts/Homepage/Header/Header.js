@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
 import logoSeaade from "./logo-seaade.png"
-import logoRhm from "./logo-khoa.png"
 
 class HomepageHeader extends Component {
   render() {
@@ -16,7 +15,7 @@ class HomepageHeader extends Component {
           </a>
         </div>
         <div className={ styles.intro }>
-          
+
           <h1>SEAADE 2016</h1>
 
           <h2>"Dental education in ASIA: One community, One vision"</h2>
