@@ -16,10 +16,7 @@ class HomepageHeader extends Component {
           </a>
         </div>
         <div className={ styles.intro }>
-          <img
-            className={ styles.logo }
-            src={ logoRhm }
-          />
+          
           <h1>SEAADE 2016</h1>
 
           <h2>"Dental education in ASIA: One community, One vision"</h2>

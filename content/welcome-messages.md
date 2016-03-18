@@ -6,11 +6,13 @@ title: Welcome messages
 
 Dear Colleagues,
 
-On behalf of the Local Organizing Committee for IADR-SEAADE Scientific Meeting 2016, it is my pleasure to invite you to attend the 27th Annual SEAADE Scientific Meetings, the amalgamation of two major conferences in South East Asia. These meetings attempt to provide updates on exciting new updates in academia and research, specifically for the dental educationist fraternity.
+On behalf of the SEAADE Council & the local organizing committee for SEAADE, it is my pleasure to invite you to attend the 27th Annual SEAADE Scientific Meetings 2016. These meetings attempt to provide updates on exciting new updates in academia and research, specifically for the dental educationist fraternity.  
 
-The traditional concerns of the conventional teaching methods have now been changed to new methods of teaching & learning which makes it more receptive and teaching more interesting. In research, we are struggling with new ideas, innovative ways of doing things and our exploration never ends. In the university environment, these two are essential to sustain and also the advancement of the institution. IADR-SEAADE 2016 scientific meetings will brings these two areas together for us to justify our presence and guarantee our sustainability to the academia and/or research world.
+This year our theme is "Dental Education in Asia: One Community, One Vision". This theme was chosen to foster closer relationship among members countries not just the politically as call by the government but also to ensure similar goals among dental educationist in the region.
 
-For this meeting, the Local Organizing Committee will putting up an have excellent programs for researchers, practitioners, academicians, and users to learn and exchange information on the latest research results and the state of the practice in as many ways possible. There will be plenty of opportunities for informal discussions during breaks, lunches, the welcome reception, and the social events. I invite you to join and participate in the annual scientific meeting of dental academia and research. Look forward to seeing you at our meeting in August at Bali, Indonesia. Also come an enjoy beautiful arts, cultures, beaches and the hospitality on the Ho Chi Minh City.
+The Local Organizing Committee has invited renown speakers from far and near across the world to share their experiences. We hope that the participants of this meeting will benefit from the programme and also enhance networking among ourselves. There will be plenty of opportunities for the informal discussions during breaks, lunches, the welcome reception and the social events. Look forward to seeing you at our meeting in Ho Chi Minh City , Vietnam in September. Also come an enjoy beautiful arts, cultures, historical and the hospitality of the Vietnamese.
+
+Warm regards & thank you .
 
 **Professor Dr Mohamed Ibrahim Abu Hassan**
 
