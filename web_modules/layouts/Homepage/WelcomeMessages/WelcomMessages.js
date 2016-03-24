@@ -6,17 +6,20 @@ import mohamed from "./img/mohamed.jpg"
 
 const messages = [
   {
-    name: "Prof. Mohamed Ibrahim Abu Hassan",
+    title: "Prof.",
+    name: "Mohamed Ibrahim Abu Hassan",
     subTitle: "President of SEAADE",
     photo: mohamed,
   },
   {
-    name: "Assoc. Prof. Tran Diep Tuan",
+    title: "Assoc. Prof.",
+    name: "Tran Diep Tuan",
     subTitle: "President of University of Medicine and Pharmacy, Ho Chi Minh City",
     photo: tuan,
   },
   {
-    name: "Assoc. Prof. Ngo Thi Quynh Lan",
+    title: "Assoc. Prof.",
+    name: "Ngo Thi Quynh Lan",
     subTitle: "Chairperson of the local organizing committee",
     photo: lan,
   },
@@ -40,6 +43,7 @@ class HomepageWelcomeMessages extends React.Component {
                 className="col-md-4"
               >
                 <Avatar
+                  title={ data.title }
                   name={ data.name }
                   subTitle={ data.subTitle }
                   photo={ data.photo }

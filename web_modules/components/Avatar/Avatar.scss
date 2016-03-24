@@ -4,7 +4,7 @@
   color: $color-text;
   font-family: $font-accent;
   text-transform: initial;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   white-space: nowrap;
 
@@ -14,9 +14,22 @@
   }
 }
 
+.title {
+  color: $color-text;
+  font-family: $font-accent;
+  text-transform: initial;
+  font-size: 1.4rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
 @media (max-width: 768px) {
   .name {
     white-space: initial;
+    font-size: 0.8rem;
+  }
+  .title {
+    white-space: initial;
+    font-size: 0.8rem;
   }
 }
 
