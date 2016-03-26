@@ -12,7 +12,7 @@ class HomepageSpeaker extends React.Component {
             <div className="col-sm-12">
               <h3 className="section-title">Keynote speakers</h3>
               <div className={ styles.youtube }>
-                <Youtube id="Grj8Z-LH5xI" />
+                <Youtube id="PM_x6iIGIac" />
               </div>
               <div className={ styles.detail }>
                 <Link className="btn btn-lg btn-black" to="/speakers/">
