@@ -55,10 +55,10 @@
 @media (max-width: 768px) {
   .intro {
     h1 {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
     h2 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
     p {
       font-size: 1rem;
@@ -81,8 +81,7 @@
   max-width: 150px;
 }
 
-.logoR {
-  vertical-align: middle;
+.logoRhm {
   margin: 0 auto;
   height: auto;
   max-width: 110px;
@@ -92,7 +91,7 @@
   .logo {
     max-width: 100px;
   }
-	.logoR {
+	.logoRhm {
 		max-width: 70px;
 	}
 }

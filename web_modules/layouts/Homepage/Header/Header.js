@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import styles from "./Header.scss"
 import logoSeaade from "./logo-seaade.png"
+import logoRhm from "./logo-khoa.png"
 
 class HomepageHeader extends Component {
   render() {
@@ -28,18 +29,16 @@ class HomepageHeader extends Component {
             <p>Hosted by The Faculty of Odonto-Stomatology</p>
             <p>University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam</p>
           </div>
-          <p>
-          <img
-            className={ styles.logo }
-            src={ logoSeaade }
-          />
-          </p>
-          <p>
-          <img
-            className={ styles.logoR }
-            src={ logoRhm }
-          />
-          </p>
+          <div>
+            <img
+              className={ styles.logo }
+              src={ logoSeaade }
+            />
+            <img
+              className={ styles.logoRhm }
+              src={ logoRhm }
+            />
+          </div>
         </div>
       </header>
     )
