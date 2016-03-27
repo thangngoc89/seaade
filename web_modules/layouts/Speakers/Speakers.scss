@@ -23,8 +23,9 @@
 .infoCol {
   font-size: 1.2rem;
   text-align: center;
+  line-height: 1;
+}
 
-  span {
-    display: block;
-  }
+.infoCol p {
+  margin: 1rem;
 }

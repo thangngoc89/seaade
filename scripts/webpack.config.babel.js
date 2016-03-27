@@ -2,9 +2,7 @@ import path from "path"
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 
-import config from "./config.js"
-
-export default {
+export default ({ config }) => ({
   ...config.dev && {
     devtool: "cheap-module-eval-source-map",
   },
@@ -13,10 +11,10 @@ export default {
       {
         test: /\.md$/,
         include: /content/,
-        loader: "statinamic/lib/md-collection-loader?" +
-          JSON.stringify({
-            context: path.join(config.cwd, config.source),
-          }),
+        loader: "statinamic/lib/content-loader",
+        query: {
+          context: path.join(config.cwd, config.source),
+        },
       },
       {
         test: /\.scss$/,
@@ -52,14 +50,6 @@ export default {
       path.join(config.cwd, "node_modules"),
     ],
   },
-  markdownIt: (
-    require("markdown-it")({
-      html: true,
-      linkify: true,
-      typographer: true,
-    })
-    // .use(require("markdown-it-toc-and-anchor"))
-  ),
 
   plugins: [
     new ExtractTextPlugin("[name].[hash].css", { disable: config.dev }),
@@ -67,8 +57,6 @@ export default {
       NODE_ENV: JSON.stringify(
         config.production ? "production" : process.env.NODE_ENV
       ),
-      CLIENT: true,
-      REDUX_DEVTOOLS: Boolean(process.env.REDUX_DEVTOOLS),
       STATINAMIC_PATHNAME: JSON.stringify(process.env.STATINAMIC_PATHNAME),
     } }),
 
@@ -85,13 +73,13 @@ export default {
   // ↓ HANDLE WITH CARE ↓ \\
 
   output: {
-    libraryTarget: "commonjs2", // for node usage, undone in client config
     path: path.join(config.cwd, config.destination),
     publicPath: config.baseUrl.pathname,
+    filename: "[name].[hash].js",
   },
   resolve: {
     extensions: [ ".js", ".json", "" ],
     root: [ path.join(config.cwd, "node_modules") ],
   },
   resolveLoader: { root: [ path.join(config.cwd, "node_modules") ] },
-}
+})

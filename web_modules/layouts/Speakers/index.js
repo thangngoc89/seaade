@@ -28,7 +28,10 @@ class SpeakersPage extends Component {
               </div>
               <div className={ "col-xs-12 col-md-8 " + styles.infoCol }>
                 <span className={ styles.name }>{ item.name }</span>
-                { item.info }
+                { item.info.map((node, key) => (
+                    <p key={ key }>{ node }</p>
+                  ))
+                }
               </div>
             </div>
           </div>
