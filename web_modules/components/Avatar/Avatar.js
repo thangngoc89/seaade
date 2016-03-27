@@ -18,11 +18,11 @@ const Avatar = ({ title, name, link, subTitle, photo }) => {
         </figure>
         {
           title &&
-          <h4 className={ styles.title }>{ title } </h4>
+          <h4 className={ styles.name }>{ title } </h4>
         }
         {
           name &&
-          <p className={ styles.name }>{ name }</p>
+          <h4 className={ styles.name }>{ name }</h4>
         }
         {
           subTitle &&
