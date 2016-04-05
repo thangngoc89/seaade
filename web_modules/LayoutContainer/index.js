@@ -7,6 +7,11 @@ import Nav from "../components/Nav"
 
 import fbCover from "./cover.jpg"
 
+const scripts = [
+  ...process.env.NODE_ENV === "production" && [
+    { src: "https://cdn.polyfill.io/v2/polyfill.min.js", type: "text/javascript" },
+  ],
+]
 export default class Layout extends Component {
 
   static propTypes = {
@@ -28,8 +33,12 @@ export default class Layout extends Component {
           meta={ [
             { property: "og:site_name", content: pkg.name },
             { property: "og:image", content: "http://seaade2016.vn" + fbCover },
-            { property: "og:description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
+            {
+              property: "og:description",
+              content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam",
+            },
           ] }
+          script={ scripts }
         />
         <Nav />
         { this.props.children }
