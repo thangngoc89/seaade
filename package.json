@@ -70,6 +70,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
     "classnames": "^2.2.3",
+    "markdown-it": "^6.0.1",
     "node-sass": "^3.4.2",
     "phenomic-simple-markdown-renderer": "^0.1.0",
     "react-bootstrap": "^0.28.3",

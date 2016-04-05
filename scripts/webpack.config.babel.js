@@ -1,7 +1,6 @@
 import path from "path"
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
-import renderer from "phenomic-simple-markdown-renderer"
 
 export default ({ config }) => ({
   ...config.dev && {
@@ -44,7 +43,11 @@ export default ({ config }) => ({
   statinamic: {
     loader: {
       context: path.join(config.cwd, config.source),
-      renderer,
+      renderer: (text) => require("markdown-it")({
+        html: true,
+        linkify: true,
+        typographer: true,
+      }).render(text),
     },
   },
 
