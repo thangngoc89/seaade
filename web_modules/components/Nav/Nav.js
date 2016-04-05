@@ -1,9 +1,11 @@
+/* eslint-disable react/no-multi-comp */
 import React, { Component, PropTypes } from "react"
 import cx from "classnames"
 import { Link } from "statinamic/lib/Link"
 import Navbar from "react-bootstrap/lib/Navbar"
 import Nav from "react-bootstrap/lib/Nav"
 import NavDropdown from "react-bootstrap/lib/NavDropdown"
+// import NavItem from "react-bootstrap/lib/NavItem"
 
 import styles from "./Nav.scss"
 
@@ -16,15 +18,13 @@ export default class NavComponent extends Component {
     super(props)
 
     this.state = {
-      collaspe: true,
+      expanded: false,
     }
-
-    this.handleCollaspeToggle = this.handleCollaspeToggle.bind(this)
   }
 
-  handleCollaspeToggle() {
+  handleCollaspeToggle = () => {
     this.setState({
-      collaspe: !this.state.collaspe,
+      expanded: !this.state.expanded,
     })
   }
 
@@ -33,37 +33,55 @@ export default class NavComponent extends Component {
       [styles.docked]: this.props.docked,
     })
 
+    const NavItem = ({ to, name }) => ((
+      <li>
+        <Link
+          to={ to }
+          activeClassName="active"
+          onClick={ this.handleCollaspeToggle }
+        >
+          { name }
+        </Link>
+      </li>
+    ))
+
     return (
-      <Navbar fluid fixedTop className={ navClass }>
+      <Navbar
+        fluid
+        fixedTop
+        className={ navClass }
+        expanded={ this.state.expanded }
+        onToggle={ this.handleCollaspeToggle }
+      >
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/" className={ styles.logo }>SEAADE 2016 </Link>
           </Navbar.Brand>
-            <Navbar.Toggle />
+          <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <li><Link to="/about-faculty/" activeClassName="active">About Faculty</Link></li>
-            <li><Link to="/important-dates/" activeClassName="active">Important Dates</Link></li>
+            <NavItem to="/about-faculty/" name="About Faculty" />
+            <NavItem to="/important-dates/" name="Important Dates" />
             <NavDropdown
               id="events"
               title="Events"
             >
-              <li><Link to="/events/scientific-program/" activeClassName="active">Scientific Program</Link></li>
-              <li><Link to="/events/gc-prevention-table/" activeClassName="active">GC Prevention Table Clinic Competition</Link></li>
-              <li><Link to="/speakers/" activeClassName="active">Keynote speakers</Link></li>
+              <NavItem to="/events/scientific-program/" name="Scientific Program" />
+              <NavItem to="/events/gc-prevention-table/" name="GC Prevention Table Clinic Competition" />
+              <NavItem to="/speakers/" name="Keynote speakers" />
             </NavDropdown>
-            <li><Link to="/abstract-submission/" activeClassName="active">Abstract Submission</Link></li>
-            <li><Link to="/registration/" activeClassName="active">Registration</Link></li>
+            <NavItem to="/abstract-submission/" name="Abstract Submission" />
+            <NavItem to="/registration/" name="Registration" />
             <NavDropdown
               id="info"
               title="General Info"
             >
-              <li><Link to="/info/travel" activeClassName="active">Travel information</Link></li>
-              <li><Link to="/info/useful" activeClassName="active">Useful information</Link></li>
+              <NavItem to="/info/travel" name="Travel information" />
+              <NavItem to="/info/useful" name="Useful information" />
             </NavDropdown>
-            <li><Link to="/sponsors/" activeClassName="active">Sponsors</Link></li>
-            <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
+            <NavItem to="/sponsors/" name="Sponsors" />
+            <NavItem to="/contact/" name="Contact" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>
