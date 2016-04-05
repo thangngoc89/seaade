@@ -1,6 +1,7 @@
 import path from "path"
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
+import renderer from "phenomic-simple-markdown-renderer"
 
 export default ({ config }) => ({
   ...config.dev && {
@@ -12,9 +13,6 @@ export default ({ config }) => ({
         test: /\.md$/,
         include: /content/,
         loader: "statinamic/lib/content-loader",
-        query: {
-          context: path.join(config.cwd, config.source),
-        },
       },
       {
         test: /\.scss$/,
@@ -41,6 +39,13 @@ export default ({ config }) => ({
         loader: "file-loader?name=[hash:base64].[ext]",
       },
     ],
+  },
+
+  statinamic: {
+    loader: {
+      context: path.join(config.cwd, config.source),
+      renderer,
+    },
   },
 
   sassLoader: {
