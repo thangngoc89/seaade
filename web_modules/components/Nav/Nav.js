@@ -28,6 +28,12 @@ export default class NavComponent extends Component {
     })
   }
 
+  handleOnNavItemClick = () => {
+    this.setState({
+      expanded: false,
+    })
+  }
+
   render() {
     const navClass = cx(styles.wrapper, {
       [styles.docked]: this.props.docked,
@@ -38,7 +44,7 @@ export default class NavComponent extends Component {
         <Link
           to={ to }
           activeClassName="active"
-          onClick={ this.handleCollaspeToggle }
+          onClick={ this.handleOnNavItemClick }
         >
           { name }
         </Link>
