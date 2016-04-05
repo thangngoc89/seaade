@@ -13,9 +13,6 @@
     "test": "npm run build",
     "deploy": "surge dist seaade2016.vn"
   },
-  "statinamic": {
-    "appcache": true
-  },
   "babel": {
     "presets": [
       "react",
