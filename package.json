@@ -69,6 +69,7 @@
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
+    "cheerio": "^0.20.0",
     "classnames": "^2.2.3",
     "markdown-it": "^6.0.1",
     "node-sass": "^3.4.2",

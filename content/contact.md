@@ -12,9 +12,9 @@ Tel: [(+84) 8 3 8558 735](tel:+84838558735)
 
 Fax: [(+84) 8 3 8552 300](tel:+84838552300)
 
-Website: [rhm-yds.edu.vn](http://rhm-yds.edu.vn "Faculty's website" target="_blank")
+Website: [rhm-yds.edu.vn](http://rhm-yds.edu.vn "Falculty's website")
 
-Facebook: [Facebook.com/Seaade2016.vn](https://fb.com/Seaade2016.VN/ "Facebook fanpage"  target="_blank")
+Facebook: [Facebook.com/Seaade2016.vn](https://fb.com/Seaade2016.VN/ "Facebook fanpage")
 
 Email:
 

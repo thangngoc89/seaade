@@ -15,7 +15,12 @@ class Footer extends React.Component {
             <div className="col-xs-12 col-md-6">
               <p className={ styles.fb }>
                 Faculty of Odonto-Stomatology, UMP<br/>
-                <a href="https://www.facebook.com/Seaade2016.VN/">Follow us on Facebook</a>
+                <a
+                  href="https://www.facebook.com/Seaade2016.VN/"
+                  target="_blank"
+                >
+                  Follow us on Facebook
+                </a>
               </p>
             </div>
           </div>

@@ -16,11 +16,13 @@ _Note: included VAT & 5% service charge_
 
 ![](/assets/registration/accomondation_fee.jpg)
 
-[Website An Dong Windsor Plaza: windsorplazahotel.com](http://windsorplazahotel.com/)
+## Websites
 
-[Website Thien Hong Hotel: thienhonghotel.vn](http://www.thienhonghotel.vn/)
+- [An Dong Windsor Plaza](http://windsorplazahotel.com/)
 
-Website An Dong Guest House: updating...
+- [Thien Hong Hotel](http://www.thienhonghotel.vn/)
+
+- An Dong Guest House: updating...
 
 
 Please click here to start your registration.
