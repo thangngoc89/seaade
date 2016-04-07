@@ -16,4 +16,7 @@ Website: [rhm-yds.edu.vn](http://rhm-yds.edu.vn)
 
 Facebook: [Facebook.com/Seaade2016.vn](https://www.facebook.com/Seaade2016.VN/)
 
-Email: htrhung.rhm@gmail.com (Dr. Hoang Trong Hung)
+Email:
+
+- Dr. Hoang Trong Hung: [htrhung.rhm@gmail.com](mailto:htrhung.rhm@gmail.com)
+- Local Organizing Committee [seaade2016@gmail.com](mailto:seaade2016@gmail.com)
