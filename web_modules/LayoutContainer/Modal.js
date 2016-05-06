@@ -23,6 +23,7 @@ export default class ModalComponent extends Component {
       <Modal
         show={ this.state.show }
         bsSize="large"
+        onHide={ this.onHide }
         aria-labelledby="contained-modal-title-sm"
       >
         <Modal.Header closeButton>
@@ -33,7 +34,12 @@ export default class ModalComponent extends Component {
         <Modal.Body>
           <p>The SEAADE 2016 abstracts submission deadline extended until May 30th, 2016</p>
           <p>
-            <Link to="/abstract-submission/">Click here to submit your abstracts online</Link>
+            <Link
+              to="/abstract-submission/"
+              onClick={ this.onHide }
+            >
+              Click here to submit your abstracts online
+            </Link>
           </p>
         </Modal.Body>
         <Modal.Footer>
