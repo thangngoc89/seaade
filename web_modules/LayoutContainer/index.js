@@ -9,7 +9,7 @@ import fbCover from "./cover.jpg"
 
 const scripts = [
   ...process.env.NODE_ENV === "production" && [
-    { src: "https://cdn.polyfill.io/v2/polyfill.min.js", type: "text/javascript" },
+    { src: "https://cdn.polyfill.io/v2/polyfill.min.js" },
   ],
 ]
 export default class Layout extends Component {

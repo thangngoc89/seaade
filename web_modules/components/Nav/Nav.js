@@ -1,7 +1,7 @@
 /* eslint-disable react/no-multi-comp */
 import React, { Component, PropTypes } from "react"
 import cx from "classnames"
-import { Link } from "statinamic/lib/Link"
+import { Link } from "phenomic/lib/Link"
 import Navbar from "react-bootstrap/lib/Navbar"
 import Nav from "react-bootstrap/lib/Nav"
 import NavDropdown from "react-bootstrap/lib/NavDropdown"

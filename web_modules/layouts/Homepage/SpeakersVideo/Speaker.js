@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./Speaker.scss"
-import { Link } from "statinamic/lib/Link"
+import { Link } from "phenomic/lib/Link"
 import Youtube from "../../../components/Youtube"
 
 class HomepageSpeaker extends React.Component {
