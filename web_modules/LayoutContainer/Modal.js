@@ -2,13 +2,14 @@ import React, { Component } from "react"
 import Link from "phenomic/lib/Link"
 import Modal from "react-bootstrap/lib/Modal"
 import Button from "react-bootstrap/lib/Button"
+import cookie from "react-cookie"
 
 export default class ModalComponent extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      show: true,
+      show: cookie.load("modal") || true,
     }
   }
 
@@ -16,6 +17,7 @@ export default class ModalComponent extends Component {
     this.setState({
       show: false,
     })
+    cookie.save("modal", false, { path: "/" })
   }
 
   render() {
