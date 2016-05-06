@@ -8,8 +8,9 @@ export default class ModalComponent extends Component {
   constructor(props) {
     super(props)
 
+    const state = cookie.load("modal")
     this.state = {
-      show: cookie.load("modal") || true,
+      show: (typeof state === "undefined") ? true : state,
     }
   }
 
