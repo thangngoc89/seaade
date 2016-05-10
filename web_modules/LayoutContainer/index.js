@@ -40,8 +40,8 @@ export default class Layout extends Component {
           ] }
           script={ scripts }
         />
-        <Nav />
         <Modal />
+        <Nav />
         { this.props.children }
         <Footer />
       </div>

@@ -36,7 +36,7 @@ export default class ModalComponent extends Component {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>The SEAADE 2016 abstracts submission deadline extended until May 30th, 2016</p>
+          <p>The SEAADE 2016 abstracts submission deadline extended until May 30<sub>th</sub>, 2016</p>
           <p>
             <Link
               to="/abstract-submission/"
