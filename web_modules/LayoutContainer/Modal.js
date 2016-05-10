@@ -3,6 +3,7 @@ import Link from "phenomic/lib/Link"
 import Modal from "react-bootstrap/lib/Modal"
 import Button from "react-bootstrap/lib/Button"
 import cookie from "react-cookie"
+import "./Modal.scss"
 
 export default class ModalComponent extends Component {
   constructor(props) {
@@ -46,7 +47,7 @@ export default class ModalComponent extends Component {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={ this.onHide }>Close</Button>
+          <Button bsStyle="primary" onClick={ this.onHide }>Close</Button>
         </Modal.Footer>
       </Modal>
     )

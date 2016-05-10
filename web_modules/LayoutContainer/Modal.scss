@@ -1,0 +1,31 @@
+/* Modal */
+:global .modal-diaglog {
+
+}
+
+:global .modal-content {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 0.2rem;
+  border: 0;
+  background-clip: padding-box;
+  will-change: transform, opacity;
+}
+
+:global .modal-header {
+  border: 0;
+  text-align: center;
+}
+
+:global .modal-title {
+  font-size: 2.5rem;
+}
+
+:global .modal-body {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+:global .modal-footer {
+  border: 0;
+  text-align: center;
+}
