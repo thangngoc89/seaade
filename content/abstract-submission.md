@@ -32,7 +32,7 @@ subtitle: Guideline for SEAADE Abstract Submission 2016
 
 <center>
   <a
-    class="btn btn-lg btn-black"
+    class="btn btn-lg btn-yellow"
     href="http://reg2.dmc.com.vn/Guide.aspx"
     target="_blank"
   >

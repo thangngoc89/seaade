@@ -29,7 +29,7 @@ Please click here to start your registration.
 
 <center>
   <a
-    class="btn btn-lg btn-black"
+    class="btn btn-lg btn-yellow"
     href="http://ezy.dmc.com.vn/Login.aspx?confId=14"
     target="_blank"
   >

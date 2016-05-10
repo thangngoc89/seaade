@@ -2,18 +2,18 @@
 
 .mainCol {
   @extend .col-sm-12;
-
   margin: 2rem 0 auto;
-}
-
-@media (min-width: 768px) {
-  .mainCol {
-    padding: 0 3rem;
-  }
 }
 
 .content {
   text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  > p, > a {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
 
   h1,
   h2,

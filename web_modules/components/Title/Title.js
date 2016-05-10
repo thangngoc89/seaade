@@ -25,7 +25,7 @@ class Facts extends Component {
         </div>
         <div className={ styles.headWrap }>
           <div className="container">
-            <span>The SEAADE 2016 abstracts submission deadline extended until May 30th, 2016</span>
+            <span>The SEAADE 2016 abstracts submission deadline extended until May 30<sup>th</sup>, 2016</span>
           </div>
         </div>
       </section>
