@@ -39,6 +39,8 @@ class HomepageHeader extends Component {
               src={ logoRhm }
             />
           </div>
+          <h2>"The SEAADE 2016 abstracts submission deadline extended until May 30th, 2016"</h2>
+
         </div>
       </header>
     )
