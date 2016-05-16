@@ -45,15 +45,14 @@ export default class ModalComponent extends Component {
               Click here to submit your abstracts online
             </Link>
           </p>
-          <a 
-              href="https://www.facebook.com/Seaade2016.VN/photos/a.794226357388171.1073741828.787468271397313/835724926571647"
-              target="_blank"
+          <Link
+            to="/blog/invitation-letter/"
+            onClick={ this.onHide }
           >
-              *The invitation letter from President SEAADE*
-          </a>
+            The invitation letter from President SEAADE
+          </Link>
         </Modal.Body>
         <Modal.Footer>
-
           <Button bsStyle="primary" onClick={ this.onHide }>Close</Button>
         </Modal.Footer>
       </Modal>

@@ -76,6 +76,7 @@ export default class NavComponent extends Component {
               <NavItem to="/events/scientific-program/" name="Scientific Program" />
               <NavItem to="/events/gc-prevention-table/" name="GC Prevention Table Clinic Competition" />
               <NavItem to="/speakers/" name="Keynote speakers" />
+              <NavItem to="/welcome-messages/" name="Welcome messages" />
             </NavDropdown>
             <NavItem to="/abstract-submission/" name="Abstract Submission" />
             <NavItem to="/registration/" name="Registration" />
