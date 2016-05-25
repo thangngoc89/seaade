@@ -45,12 +45,22 @@ export default class ModalComponent extends Component {
               Click here to submit your abstracts online
             </Link>
           </p>
-          <Link
-            to="/blog/invitation-letter/"
-            onClick={ this.onHide }
-          >
-            The invitation letter from President SEAADE
-          </Link>
+          <p>
+            <Link
+              to="/blog/invitation-letter/"
+              onClick={ this.onHide }
+            >
+              The invitation letter from President SEAADE
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/blog/pre-meeting/"
+              onClick={ this.onHide }
+            >
+              Pre-meeting
+            </Link>
+          </p>
         </Modal.Body>
         <Modal.Footer>
           <Button bsStyle="primary" onClick={ this.onHide }>Close</Button>
