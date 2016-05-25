@@ -8,6 +8,7 @@ import Facts from "./Facts"
 import Sponsors from "./Sponsors"
 import Map from "./Map"
 import SpeakersVideo from "./SpeakersVideo"
+import Notification from "../../components/Notification"
 
 export default class Page extends Component {
 
@@ -37,6 +38,7 @@ export default class Page extends Component {
           meta={ meta }
         />
         <Header />
+        <Notification />
         <About />
         <WelcomeMessages />
         <Facts />
