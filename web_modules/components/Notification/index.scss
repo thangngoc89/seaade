@@ -1,8 +1,10 @@
 .headWrap {
-  background: rgb(224, 196, 77);
+  background: #E0C44D;
+  padding: 1rem 0;
+  border-bottom: 1px solid #b69f3c;
+  font-weight: 300;
+}
 
-  p {
-    padding: 1rem;
-    margin: 0;
-  }
+.headWrap:last-child {
+  border: 0;
 }
