@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from "react"
 import styles from "./Title.scss"
+import Notification from "../Notification"
 
 class Facts extends Component {
   static propTypes = {
@@ -23,11 +24,7 @@ class Facts extends Component {
             </div>
           </div>
         </div>
-        <div className={ styles.headWrap }>
-          <div className="container">
-            <span>The SEAADE 2016 abstracts submission deadline extended until May 30<sup>th</sup>, 2016</span>
-          </div>
-        </div>
+        <Notification />
       </section>
       )
   }

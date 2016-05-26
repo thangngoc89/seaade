@@ -4,7 +4,6 @@ import Helmet from "react-helmet"
 import "../styles/global.styles"
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
-import Modal from "./Modal"
 import fbCover from "./cover.jpg"
 
 const scripts = [
@@ -40,7 +39,6 @@ export default class Layout extends Component {
           ] }
           script={ scripts }
         />
-        <Modal />
         <Nav />
         { this.props.children }
         <Footer />
