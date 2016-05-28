@@ -2,4 +2,5 @@
 title: Pre-meeting
 ---
 
-lalalal
+![](/news/pre-meeting-01.jpg)
+![](/news/pre-meeting-02.jpg)
