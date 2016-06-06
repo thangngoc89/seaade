@@ -11,7 +11,7 @@
     "build": "phenomic build",
     "pretest": "npm run lint:js",
     "test": "npm run build",
-    "deploy": "surge dist seaade2016.vn"
+    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/seaade.git --dist dist"
   },
   "babel": {
     "presets": [
@@ -50,6 +50,7 @@
     "eslint-plugin-react": "^3.6.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.1",
+    "gh-pages": "^0.11.0",
     "history": "^2.0.0",
     "invariant": "^2.1.1",
     "json-loader": "^0.5.2",
