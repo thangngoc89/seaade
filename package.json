@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "seaade-2016",
+  "version": "1.0.0",
   "homepage": "http://seaade2016.vn/",
   "sitename": "27th SEAADE Annual Meeting - 2016 (SEAADE 2016)",
   "scripts": {
