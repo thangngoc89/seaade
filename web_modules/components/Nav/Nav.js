@@ -77,6 +77,7 @@ export default class NavComponent extends Component {
               <NavItem to="/events/gc-prevention-table/" name="GC Prevention Table Clinic Competition" />
               <NavItem to="/speakers/" name="Keynote speakers" />
               <NavItem to="/welcome-messages/" name="Welcome messages" />
+              <NavItem to="/sponsors/" name="Sponsors" />
             </NavDropdown>
             <NavItem to="/abstract-submission/" name="Abstract Submission" />
             <NavItem to="/registration/" name="Registration" />
@@ -87,7 +88,6 @@ export default class NavComponent extends Component {
               <NavItem to="/info/travel" name="Travel information" />
               <NavItem to="/info/useful" name="Useful information" />
             </NavDropdown>
-            <NavItem to="/sponsors/" name="Sponsors" />
             <NavItem to="/contact/" name="Contact" />
           </Nav>
         </Navbar.Collapse>
