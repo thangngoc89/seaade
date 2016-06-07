@@ -1,4 +1,7 @@
 // Core variables and mixins
+$grid-float-breakpoint: 991px !default;
+$grid-float-breakpoint-max: 768px !default;
+
 @import "bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
