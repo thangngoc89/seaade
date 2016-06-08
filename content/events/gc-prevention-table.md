@@ -1,7 +1,7 @@
 ---
 title: GC prevention table
 ---
-# Here are all information about GC Prevention Table
+# Here is all information about GC Prevention Table
 
 Please download from this list:
 
