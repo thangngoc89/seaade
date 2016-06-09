@@ -5,8 +5,8 @@ title: GC prevention table
 
 Please download from this list:
 
-1. [GC Form 2016](/assets/download/SEAADE2016-GCForm.docx)
+1. <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JbmlUV1M4bWJDRDQ/view" target="_blank"> GC Form </a>
 
-2. [GC Prevention Program 2016](/assets/download/SEAADE-GCPREVENTION-PROGRAM2016-guidance.pdf)
+2. <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JRlhWczRLRE1wdHc/view" target="_blank"> GC Prevention Program 2016 </a>
 
-3. [Inviation GC Table clinic 2016](/assets/download/SEAADE2016-INVITATION-MEETING-2016-GC-table-clinic.pdf)
+3. <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_Jdk5ZRHpXSVhyd2M/view" target="_blank"> Invitation GC Table Clinic 2016 </a>
