@@ -7,6 +7,7 @@ import krassanai from "./img/6-krasssanai.jpg"
 import chooi from "./img/7-toh-chooi-gait.jpg"
 import phuc from "./img/8-vu-minh-phuc.jpg"
 import stephen from "./img/9-stephen.jpg"
+import jung from "./img/10-jung-taek.jpg"
 
 const speakerData = [
   {
@@ -92,6 +93,16 @@ const speakerData = [
       "Viet Nam",
     ],
     photo: phuc,
+  },
+  {
+    name: "Prof. Jung Taek SEO",
+    info: [
+      "DDS, M.Sc., Ph.D.",
+      "Present Vice Dean for Educational Affairs",
+      "Yonsei University College of Dentistry",
+      "Seoul, Korea",
+    ],
+    photo: jung,
   },
 ]
 
