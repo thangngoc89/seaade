@@ -16,6 +16,10 @@ _Note: included VAT & 5% service charge_
 
 ![](/assets/registration/accomondation_fee.jpg)
 
+<center>
+  **If you choose double room, please indicate clearly the kind of bed you want.**
+</center>
+
 ## Websites
 
 - [An Dong Windsor Plaza](http://windsorplazahotel.com/)
