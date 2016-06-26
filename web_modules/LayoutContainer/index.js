@@ -28,7 +28,7 @@ export default class Layout extends Component {
     } = this.context.metadata
 
     return (
-      <GATracker>
+      <GATracker {...this.props}>
         <Helmet
           meta={ [
             { property: "og:site_name", content: pkg.name },
