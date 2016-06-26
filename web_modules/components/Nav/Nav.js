@@ -78,8 +78,8 @@ export default class NavComponent extends Component {
               <NavItem to="/speakers/" name="Keynote speakers" />
               <NavItem to="/welcome-messages/" name="Welcome messages" />
               <NavItem to="/sponsors/" name="Sponsors" />
+              <NavItem to="/abstract-submission/" name="Abstract Submission" />
             </NavDropdown>
-            <NavItem to="/abstract-submission/" name="Abstract Submission" />
             <NavItem to="/registration/" name="Registration" />
             <NavDropdown
               id="info"
