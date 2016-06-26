@@ -29,7 +29,7 @@ subtitle: Guideline for SEAADE Abstract Submission 2016
 - Step 1: Click on the "Abstract submission online" button.
 - Step 2: The submission page will be displayed on your screen. Please click sign up button and fill all requirements in this page then click sign up button to complete your registration.
 - Step 3: Click login button to log in the online abstract submission system by your account (email and password were created during your sign up).
-
+<!---
 <center>
   <a
     class="btn btn-lg btn-yellow"
@@ -39,6 +39,7 @@ subtitle: Guideline for SEAADE Abstract Submission 2016
     Abstract submission online
   </a>
 </center>
+--->
 
 ## Mode of Presentation
 
