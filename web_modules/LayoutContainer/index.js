@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 
 import "../styles/global.styles"
+import GATracker from "../components/GATracker"
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
 import fbCover from "./cover.jpg"
@@ -27,7 +28,7 @@ export default class Layout extends Component {
     } = this.context.metadata
 
     return (
-      <div>
+      <GATracker>
         <Helmet
           meta={ [
             { property: "og:site_name", content: pkg.name },
@@ -42,7 +43,7 @@ export default class Layout extends Component {
         <Nav />
         { this.props.children }
         <Footer />
-      </div>
+      </GATracker>
     )
   }
 }
