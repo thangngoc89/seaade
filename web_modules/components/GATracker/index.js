@@ -38,7 +38,7 @@ export default class GATracker extends Component {
 
   logPageview() {
     if (isProduction && isBrowser) {
-      ga.pageview(window.location.href)
+      ga.pageview(window.location.pathname)
     }
     if (!isProduction && isBrowser) {
       console.info("New pageview", window.location.href)
