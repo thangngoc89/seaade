@@ -17,15 +17,15 @@ export default class GATracker extends Component {
   componentWillMount() {
     const {
       pkg: {
-        config: { googleAnalyticsUA },
+        config: { googleAnalystic },
       },
     } = this.context.metadata
 
     if (isProduction && isBrowser) {
-      ga.initialize(googleAnalyticsUA)
+      ga.initialize(googleAnalystic)
     }
     if (!isProduction && isBrowser) {
-      console.info("ga.initialize", googleAnalyticsUA)
+      console.info("ga.initialize", googleAnalystic)
     }
     this.logPageview()
   }

@@ -14,6 +14,9 @@
     "test": "npm run build",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/seaade.git --dist dist --message \"Update website [skip ci]\""
   },
+  "config": {
+    "googleAnalystic": "UA-79917717-1"
+  },
   "phenomic": {
     "CNAME": true
   },
