@@ -30,8 +30,9 @@ export default class Layout extends Component {
     return (
       <GATracker {...this.props}>
         <Helmet
+          titleTemplate={ "%s - " + pkg.sitename }
           meta={ [
-            { property: "og:site_name", content: pkg.name },
+            { property: "og:site_name", content: pkg.sitename },
             { property: "og:image", content: "http://seaade2016.vn" + fbCover },
             {
               property: "og:description",

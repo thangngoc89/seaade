@@ -21,7 +21,7 @@ export default class Page extends Component {
       pkg,
     } = this.context.metadata
 
-    const title = "Home - " + pkg.sitename
+    const title = "Home"
 
     const meta = [
       { property: "og:type", content: "article" },
