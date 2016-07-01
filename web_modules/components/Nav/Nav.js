@@ -68,6 +68,7 @@ export default class NavComponent extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem to="/about-faculty/" name="About Faculty" />
+            <NavItem to="/news/pre-meeting/" name="Pre-Meeting" />
             <NavItem to="/important-dates/" name="Important Dates" />
             <NavDropdown
               id="events"
