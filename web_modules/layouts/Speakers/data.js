@@ -8,6 +8,7 @@ import chooi from "./img/7-toh-chooi-gait.jpg"
 import phuc from "./img/8-vu-minh-phuc.jpg"
 import stephen from "./img/9-stephen.jpg"
 import jung from "./img/10-jung-taek.jpg"
+import botelho from "./img/11-botelho.jpg"
 
 const speakerData = [
   {
@@ -103,6 +104,17 @@ const speakerData = [
       "Seoul, Korea",
     ],
     photo: jung,
+  },
+  {
+    name: "Assoc. Prof. Michael Botelho",
+    info: [
+      "BDS, M.Sc., FRACDS, MRD RCS, Ph.D.",
+      "Oral Rehabilitation",
+      "Prince Philip Dental Hospital",
+      "University of Hong Kong",
+      "Hong Kong",
+    ],
+    photo: botelho,
   },
 ]
 
