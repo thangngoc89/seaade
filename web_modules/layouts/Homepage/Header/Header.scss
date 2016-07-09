@@ -87,17 +87,6 @@
   max-width: 110px;
 }
 
-.noti {
-	font-size: 0.8rem;
-  font-style: italic;
-  text-transform: initial;
-  text-align: center;
-	color: #f1c40f;
-	> p {
-		font-size: 2rem;
-	}
-}
-
 @media (max-width: 768px) {
   .logo {
     max-width: 100px;

@@ -16,9 +16,6 @@ class HomepageHeader extends Component {
           </a>
         </div>
         <div className={ styles.intro }>
-          <div className={ styles.noti }>
-            <p>The Early-Bird Registration Deadline is Extended until 31<sup>st</sup>, July, 2016</p>
-          </div>
           <h1>SEAADE 2016</h1>
 
           <h2>"Dental education in ASIA: One community, One vision"</h2>
