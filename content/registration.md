@@ -33,7 +33,7 @@ Note: Once you have completed your registration fee payment, an email notificati
 However, Auto notification email may arrive in your spam or junk box so please double-check in the boxes carefully and If there is no notification email arriving within 24hrs after your successful payment, please kindly contact us at seaade2016@gmail.com for immediate assistance.
 
 Please click here to start your registration.
-
+<!---
 <center>
   <a
     class="btn btn-lg btn-yellow"
@@ -43,7 +43,7 @@ Please click here to start your registration.
     Online Registration
   </a>
 </center>
-
+--->
 # On-site Registration
 
 Participants intending to register by “On-site Registration” should register to the On-site Registration Counter at the venue. The payment will be charged by CASH in VND or US Dollar (with current currency exchange).
