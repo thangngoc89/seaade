@@ -52,25 +52,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .intro {
-    h1 {
-      font-size: 2rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-    }
-    p {
-      font-size: 1rem;
-    }
-  }
-	.noti {
-		p {
-			font-size: 1.2rem;
-		}
-	}
-}
-
 .hosted {
   font-size: 0.8rem;
   line-height: 1;
@@ -102,16 +83,6 @@
 		font-size: 2rem;
 	}
 }
-
-@media (max-width: 768px) {
-  .logo {
-    max-width: 100px;
-  }
-	.logoRhm {
-		max-width: 70px;
-	}
-}
-
 .photoCredit {
   position: absolute;
   bottom: 0;
@@ -129,4 +100,28 @@
       text-decoration: none;
     }
   }
+}
+@media (max-width: 768px) {
+  .intro {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+	.noti {
+		p {
+			font-size: 1.2rem;
+		}
+	}
+	.logo {
+    max-width: 100px;
+  }
+	.logoRhm {
+		max-width: 70px;
+	}
 }
