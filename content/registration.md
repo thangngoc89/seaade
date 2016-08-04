@@ -26,7 +26,7 @@ _Note: included VAT & 5% service charge_
 
 - [Thien Hong Hotel](http://www.thienhonghotel.vn/)
 
-- An Dong Guest House: updating...
+- [An Dong Guest House](http://andongcenter.com/)
 
 Note:
 
