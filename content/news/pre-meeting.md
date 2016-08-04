@@ -42,6 +42,12 @@ title: Pre-meeting
       <td class="tg-yw4l">Bao gồm Buffet trưa</td>
     </tr>
   </table>
+
+</center>
+
+<center>
+<p>Hạn cuối đăng ký online là ngày 02-09-2016, đăng ký trực tiếp tại quầy vui lòng cộng thêm 50% lệ phí<br>
+**Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh**</p>
 </center>
 
 # <center> For International Participants </center>
@@ -78,8 +84,13 @@ title: Pre-meeting
     </tr>
   </table>
 </center>
-
+<center>
+  <p>Online Registration deadline is 02nd, Sep, 2016<br>
+  Onsite Registration please add 50% fee</p>
+</center>
 <center> **Accommodation is not supported, please contact directly to the hotel.<br> You can find hotel information <a href="#hotel">here</a>** </center>
+
+### <center> Refund is not supported under any circumstances </center>
 
 <center>
   <a
