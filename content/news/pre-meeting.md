@@ -102,8 +102,15 @@ title: Pre-meeting
   </a>
 </center>
 
-![](/assets/news/pre-meeting.jpg)
+### <center>Chi tiết chương trình, xin vui lòng tham khảo <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view" >tại đây</a></center>
 
+
+
+### <center>Details of program you can find <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view">here</a></center>
+
+<!---
+![](/assets/news/pre-meeting.jpg)
+--->
 # Hotel information
 
 <div id="hotel">
