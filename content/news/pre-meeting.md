@@ -88,7 +88,7 @@ title: Pre-meeting
   <p>Online Registration deadline is 02nd, Sep, 2016<br>
   Onsite Registration please add 50% fee</p>
 </center>
-<center> **Accommodation is not supported, please contact directly to the hotel.<br> You can find hotel information <a href="#hotel">here</a>** </center>
+<center> **Accommodation is not supported, please contact directly to the hotel.<br> You can find hotel information below** </center>
 
 ### <center> Refund is not supported under any circumstances </center>
 
@@ -102,11 +102,11 @@ title: Pre-meeting
   </a>
 </center>
 
-### <center>Chi tiết chương trình, xin vui lòng tham khảo <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view" >tại đây</a></center>
+# Chương trình chi tiết / Detailed program
 
+  - [Phiên bản Tiếng Việt](https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view)
 
-
-### <center>Details of program you can find <a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view">here</a></center>
+  - [English version](https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view)
 
 <!---
 ![](/assets/news/pre-meeting.jpg)
