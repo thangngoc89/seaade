@@ -95,7 +95,7 @@ title: Pre-meeting
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="https://seaade2016.vn/404/"
+    href="http://ezy.dmc.com.vn/Login.aspx?confId=16"
     target="_blank"
   >
     Đăng ký / Registration
