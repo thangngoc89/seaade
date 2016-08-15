@@ -2,7 +2,10 @@
 title: Pre-meeting
 ---
 
-# <center> Dành cho Hội thảo viên Việt Nam </center>
+# Dành cho Hội thảo viên Việt Nam
+
+**<a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JWmFUWndxRjRKWjA/view" target="_blank">Hướng Dẫn</a>**
+
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -11,7 +14,7 @@ title: Pre-meeting
 .tg .tg-d55q{font-weight:bold;font-size:1rem;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
 </style>
-<center>
+
   <table class="tg">
     <tr>
       <th class="tg-d55q">Thời gian</th>
@@ -43,12 +46,11 @@ title: Pre-meeting
     </tr>
   </table>
 
-</center>
+- Hạn cuối đăng ký online là ngày 02-09-2016
+- Đăng ký trực tiếp tại quầy vui lòng cộng thêm 50% lệ phí
+- Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh
 
-<center>
-<p>Hạn cuối đăng ký online là ngày 02-09-2016, đăng ký trực tiếp tại quầy vui lòng cộng thêm 50% lệ phí<br>
-**Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh**</p>
-</center>
+Vui lòng nhấn vào đây để đăng ký
 
 <center>
   <a
@@ -60,9 +62,8 @@ title: Pre-meeting
   </a>
 </center>
 
-# <center> For International Participants </center>
+# For International Participants
 
-<center>
   <table class="tg">
     <tr>
       <th class="tg-d55q">Time</th>
@@ -93,14 +94,12 @@ title: Pre-meeting
       <td class="tg-yw4l">Buffet Include</td>
     </tr>
   </table>
-</center>
-<center>
-  <p>Online Registration deadline is 02nd, Sep, 2016<br>
-  Onsite Registration please add 50% fee</p>
-</center>
-<center> **Accommodation is not supported, please contact directly to the hotel.<br> You can find hotel information below** </center>
 
-### <center> Refund is not supported under any circumstances </center>
+- Online Registration deadline is 02nd, Sep, 2016
+- Onsite Registration please add 50% fee
+- Accommodation is not supported, please contact directly to the hotel. You can find hotel information below
+
+**Refund is not supported under any circumstances**
 
 <center>
   <a
@@ -114,7 +113,7 @@ title: Pre-meeting
 
 # Chương trình chi tiết / Detailed program
 
-  - [Phiên bản Tiếng Việt](https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view)
+  - [Phiên bản Tiếng Việt](https://drive.google.com/file/d/0Bzq0LC0pfk_JQlF3aHBqXzZ6c1E/view)
 
   - [English version](https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view)
 
