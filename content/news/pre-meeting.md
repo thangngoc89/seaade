@@ -53,7 +53,7 @@ title: Pre-meeting
 <center>
   <a
     class="btn btn-lg btn-primary"
-    href="https://docs.google.com/forms/d/e/1FAIpQLSefhc7NXpYmKBHqpCKI73DZF1KfEa1fC-IU6z7DO6p0VyXYGw/viewform"
+    href="https://seaade2016.vn/404/"
     target="_blank"
   >
     ĐĂNG KÝ
@@ -105,7 +105,7 @@ title: Pre-meeting
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="http://ezy.dmc.com.vn/Login.aspx?confId=16"
+    href="https://seaade2016.vn/404/"
     target="_blank"
   >
     Registration
