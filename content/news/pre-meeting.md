@@ -54,7 +54,7 @@ Vui lòng nhấn vào đây để đăng ký
 
 <center>
   <a
-    class="btn btn-lg btn-primary"
+    class="btn btn-lg btn-blue"
     href="https://seaade2016.vn/404/"
     target="_blank"
   >
