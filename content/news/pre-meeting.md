@@ -50,6 +50,16 @@ title: Pre-meeting
 **Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh**</p>
 </center>
 
+<center>
+  <a
+    class="btn btn-lg btn-primary"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSefhc7NXpYmKBHqpCKI73DZF1KfEa1fC-IU6z7DO6p0VyXYGw/viewform"
+    target="_blank"
+  >
+    ĐĂNG KÝ
+  </a>
+</center>
+
 # <center> For International Participants </center>
 
 <center>
@@ -95,10 +105,10 @@ title: Pre-meeting
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="https://seaade2016.vn/404/"
+    href="http://ezy.dmc.com.vn/Login.aspx?confId=16"
     target="_blank"
   >
-    Đăng ký / Registration
+    Registration
   </a>
 </center>
 
