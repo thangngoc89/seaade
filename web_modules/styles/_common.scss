@@ -183,13 +183,14 @@ p {
 }
 
 .btn-blue {
-	color: #000;
+	color: #fff;
 	background-color: #428bca;
 	padding: 1rem 2rem;
 	margin: 1rem 0;
 	border: 1px solid #428bca;
 	&:hover,
 	&:focus {
+		color: #fff;
 		background-color: #428bca;
     border: 1px solid #000;
 	}
