@@ -4,7 +4,7 @@ title: Pre-meeting
 
 # Dành cho Hội thảo viên Việt Nam
 
-**<a href="https://drive.google.com/file/d/0Bzq0LC0pfk_JWmFUWndxRjRKWjA/view" target="_blank">Hướng Dẫn</a>**
+**<a href="https://www.facebook.com/Seaade2016.VN/posts/887166944760778" target="_blank">Hướng Dẫn</a>**
 
 
 <style type="text/css">
@@ -76,7 +76,7 @@ Vui lòng nhấn vào đây để đăng ký
       <td class="tg-yw4l">
         <a href="https://www.google.com/maps/place/Nha+Khoa+R%C4%83ng+H%C3%A0m+M%E1%BA%B7t/@10.7550138,106.6608197,17z/data=!4m8!1m2!2m1!1skhoa+rang+ham+mat+dai+hoc+y+duoc!3m4!1s0x0:0x2beefef65ddbbf41!8m2!3d10.7535203!4d106.6636661"
         target="_blank">
-        Grand Amphitheatre<br>University of Medicine and Pharmacy<br>651 Nguyen Trai Street, District 5
+        Grand Amphitheatre<br>University of Medicine and Pharmacy<br>652 Nguyen Trai Street, District 5
         </a>
       </td>
       <td class="tg-yw4l">20</td>
