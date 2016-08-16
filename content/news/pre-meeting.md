@@ -55,7 +55,7 @@ Vui lòng nhấn vào đây để đăng ký
 <center>
   <a
     class="btn btn-lg btn-blue"
-    href="https://seaade2016.vn/404/"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSefhc7NXpYmKBHqpCKI73DZF1KfEa1fC-IU6z7DO6p0VyXYGw/viewform"
     target="_blank"
   >
     ĐĂNG KÝ
@@ -104,7 +104,7 @@ Vui lòng nhấn vào đây để đăng ký
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="https://seaade2016.vn/404/"
+    href="http://ezy.dmc.com.vn/Login.aspx?confId=16"
     target="_blank"
   >
     Registration
