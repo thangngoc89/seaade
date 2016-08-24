@@ -115,7 +115,7 @@ Vui lòng nhấn vào đây để đăng ký
 
   - [Phiên bản Tiếng Việt](https://drive.google.com/file/d/0Bzq0LC0pfk_JQlF3aHBqXzZ6c1E/view)
 
-  - [English version](https://drive.google.com/file/d/0Bzq0LC0pfk_JV0cyYzNIUHNDYjA/view)
+  - [English version](https://drive.google.com/file/d/0Bzq0LC0pfk_JdzF3a0hVc2xJVUk/view)
 
 <!---
 ![](/assets/news/pre-meeting.jpg)
