@@ -47,7 +47,6 @@ title: Pre-meeting
   </table>
 
 - Hạn cuối đăng ký online là ngày 02-09-2016
-- Đăng ký trực tiếp tại quầy vui lòng cộng thêm 50% lệ phí
 - Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh
 
 Vui lòng nhấn vào đây để đăng ký
@@ -96,7 +95,6 @@ Vui lòng nhấn vào đây để đăng ký
   </table>
 
 - Online Registration deadline is 02nd, Sep, 2016
-- Onsite Registration please add 50% fee
 - Accommodation is not supported, please contact directly to the hotel. You can find hotel information below
 
 **Refund is not supported under any circumstances**

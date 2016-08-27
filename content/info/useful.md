@@ -4,7 +4,7 @@ title: Useful Information
 
 # Currency Exchange
 
-The official currency is the Dong (VND). United States Dollar and EURO could be used but it is more convenient to use the Dong while purchasing in Hanoi.
+The official currency is the Dong (VND). United States Dollar and EURO could be used but it is more convenient to use the Dong while purchasing in Ho Chi Minh City.
 
 Exchange rates are: USD 1.00 = approx. 22,500 VND, EURO 1.00 = approx. 24,700 VND as of December 2015. You can exchange money at Tan Son Nhat International Airport or it is also possible to exchange money at the front desk at the hotel (Winsor Plaza hotel).
 
