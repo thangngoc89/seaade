@@ -102,6 +102,12 @@ export const makeConfig = (config = {}) => {
       filename: "[name].[hash].js",
     },
 
+    resolve: {
+      alias: {
+        "react": "preact-compat",
+        "react-dom": "preact-compat",
+      },
+    },
     // resolve: {
     //   extensions: [ ".js", ".json", "" ],
     //   root: [ path.join(__dirname, "node_modules") ],
