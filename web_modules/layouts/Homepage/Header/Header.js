@@ -16,9 +16,9 @@ class HomepageHeader extends Component {
           </a>
         </div>
         <div className={ styles.intro }>
-         <div className={ styles.noti }>
-           <p>Online Registration Deadline is 5<sup> th</sup>, September, 2016</p>
-         </div>
+         //<div className={ styles.noti }>
+          // <p>Online Registration Deadline is 5<sup> th</sup>, September, 2016</p>
+         //</div>
 
           <h1>SEAADE 2016</h1>
 
