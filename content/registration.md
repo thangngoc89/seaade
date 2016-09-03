@@ -53,7 +53,7 @@ Please click here to start your registration.
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="/news/over-deadline/"
+    href="/news/full-meeting/"
     target="_blank"
   >
     Online Registration
