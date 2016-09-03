@@ -49,17 +49,17 @@ Note:
 - Notwithstanding the above, all/any cancellation of the Participation at the Conference shall be allowed solely at the discretion of the Organizer
 
 Please click here to start your registration.
-<!---
+
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="http://ezy.dmc.com.vn/Login.aspx?confId=14"
+    href="/news/over-deadline/"
     target="_blank"
   >
     Online Registration
   </a>
 </center>
---->
+
 # On-site Registration
 
 Participants intending to register by “On-site Registration” should register to the On-site Registration Counter at the venue. The payment will be charged by CASH in VND or US Dollar (with current currency exchange).

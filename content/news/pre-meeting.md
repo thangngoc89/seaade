@@ -54,7 +54,7 @@ Vui lòng nhấn vào đây để đăng ký
 <center>
   <a
     class="btn btn-lg btn-blue"
-    href="https://docs.google.com/forms/d/e/1FAIpQLSefhc7NXpYmKBHqpCKI73DZF1KfEa1fC-IU6z7DO6p0VyXYGw/viewform"
+    href="/news/over-deadline/"
     target="_blank"
   >
     ĐĂNG KÝ
@@ -102,7 +102,7 @@ Vui lòng nhấn vào đây để đăng ký
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="http://ezy.dmc.com.vn/Login.aspx?confId=16"
+    href="/news/over-deadline/"
     target="_blank"
   >
     Registration
