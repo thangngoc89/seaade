@@ -29,7 +29,7 @@ const messages = [
     name: "Nguyen Thi Kim Tien",
     subTitle: "Minister of Health, Vietnam",
     photo: tien,
-  }
+  },
 ]
 
 class HomepageWelcomeMessages extends React.Component {
