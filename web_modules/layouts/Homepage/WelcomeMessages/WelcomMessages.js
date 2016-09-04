@@ -3,7 +3,7 @@ import Avatar from "../../../components/Avatar"
 import tuan from "./img/tuan.jpg"
 import lan from "./img/lan.jpg"
 import mohamed from "./img/mohamed.jpg"
-import someone from "./img/someone.jpg"
+import tien from "./img/tien.jpg"
 
 const messages = [
   {
@@ -25,10 +25,10 @@ const messages = [
     photo: lan,
   },
   {
-    title: "Mr/Mrs.",
-    name: "Someone in the future",
-    subTitle: "Vietnam Goverment",
-    photo: someone,
+    title: "Assoc. Prof.",
+    name: "Nguyen Thi Kim Tien",
+    subTitle: "Minister of Health, Vietnam",
+    photo: tien,
   }
 ]
 
