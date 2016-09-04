@@ -3,6 +3,7 @@ import Avatar from "../../../components/Avatar"
 import tuan from "./img/tuan.jpg"
 import lan from "./img/lan.jpg"
 import mohamed from "./img/mohamed.jpg"
+import someone from "./img/someone.jpg"
 
 const messages = [
   {
@@ -23,6 +24,12 @@ const messages = [
     subTitle: "Chairperson of the local organizing committee",
     photo: lan,
   },
+  {
+    title: "Mr/Mrs.",
+    name: "Someone in the future",
+    subTitle: "Vietnam Goverment",
+    photo: someone,
+  }
 ]
 
 class HomepageWelcomeMessages extends React.Component {
@@ -40,7 +47,7 @@ class HomepageWelcomeMessages extends React.Component {
             messages.map((data) => (
               <div
                 key={ data.name }
-                className="col-md-4"
+                className="col-md-3"
               >
                 <Avatar
                   title={ data.title }
