@@ -28,6 +28,7 @@ export default class Page extends Component {
       { property: "og:title", content: title },
       { property: "og:url", content: pkg.homepage },
       { property: "og:description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
+      { name: "google-site-verification", content: "tFZ6QJL1vKkGjk-ed8NUSL2lWqqe3lz5GsdQ7LmKtyM" },
       { name: "description", content: "Hosted by Faculty of Odonto-Stomatology, University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam" },
     ]
 

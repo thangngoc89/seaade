@@ -69,17 +69,17 @@ export default class NavComponent extends Component {
           <Nav pullRight>
             <NavItem to="/about-faculty/" name="About Faculty" />
             <NavItem to="/news/pre-meeting/" name="Pre-Meeting" />
-            <NavItem to="/important-dates/" name="Important Dates" />
+            <NavItem to="/events/scientific-program/" name="Scientific Program" />
             <NavDropdown
               id="events"
               title="Events"
             >
-              <NavItem to="/events/scientific-program/" name="Scientific Program" />
               <NavItem to="/events/gc-prevention-table/" name="GC Prevention Table Clinic Competition" />
+              <NavItem to="/important-dates/" name="Important Dates" />
               <NavItem to="/speakers/" name="Keynote speakers" />
               <NavItem to="/welcome-messages/" name="Welcome messages" />
-              <NavItem to="/sponsors/" name="Sponsors" />
               <NavItem to="/abstract-submission/" name="Abstract Submission" />
+              <NavItem to="/sponsors/" name="Sponsors" />
             </NavDropdown>
             <NavItem to="/registration/" name="Registration" />
             <NavDropdown

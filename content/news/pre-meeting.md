@@ -2,7 +2,10 @@
 title: Pre-meeting
 ---
 
-# <center> Dành cho Hội thảo viên Việt Nam </center>
+# Dành cho Hội thảo viên Việt Nam
+
+**<a href="https://www.facebook.com/Seaade2016.VN/posts/887166944760778" target="_blank">Hướng Dẫn</a>**
+
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -11,7 +14,7 @@ title: Pre-meeting
 .tg .tg-d55q{font-weight:bold;font-size:1rem;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
 </style>
-<center>
+
   <table class="tg">
     <tr>
       <th class="tg-d55q">Thời gian</th>
@@ -43,16 +46,23 @@ title: Pre-meeting
     </tr>
   </table>
 
-</center>
+- Hạn cuối đăng ký online là ngày 02-09-2016
+- Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh
+
+Vui lòng nhấn vào đây để đăng ký
 
 <center>
-<p>Hạn cuối đăng ký online là ngày 02-09-2016, đăng ký trực tiếp tại quầy vui lòng cộng thêm 50% lệ phí<br>
-**Việc hoàn tiền KHÔNG được chấp thuận trong mọi hoàn cảnh**</p>
+  <a
+    class="btn btn-lg btn-blue"
+    href="/news/over-deadline/"
+    target="_blank"
+  >
+    ĐĂNG KÝ
+  </a>
 </center>
 
-# <center> For International Participants </center>
+# For International Participants
 
-<center>
   <table class="tg">
     <tr>
       <th class="tg-d55q">Time</th>
@@ -65,7 +75,7 @@ title: Pre-meeting
       <td class="tg-yw4l">
         <a href="https://www.google.com/maps/place/Nha+Khoa+R%C4%83ng+H%C3%A0m+M%E1%BA%B7t/@10.7550138,106.6608197,17z/data=!4m8!1m2!2m1!1skhoa+rang+ham+mat+dai+hoc+y+duoc!3m4!1s0x0:0x2beefef65ddbbf41!8m2!3d10.7535203!4d106.6636661"
         target="_blank">
-        Grand Amphitheatre<br>University of Medicine and Pharmacy<br>651 Nguyen Trai Street, District 5
+        Grand Amphitheatre<br>University of Medicine and Pharmacy<br>652 Nguyen Trai Street, District 5
         </a>
       </td>
       <td class="tg-yw4l">20</td>
@@ -83,27 +93,31 @@ title: Pre-meeting
       <td class="tg-yw4l">Buffet Include</td>
     </tr>
   </table>
-</center>
-<center>
-  <p>Online Registration deadline is 02nd, Sep, 2016<br>
-  Onsite Registration please add 50% fee</p>
-</center>
-<center> **Accommodation is not supported, please contact directly to the hotel.<br> You can find hotel information <a href="#hotel">here</a>** </center>
 
-### <center> Refund is not supported under any circumstances </center>
+- Online Registration deadline is 02nd, Sep, 2016
+- Accommodation is not supported, please contact directly to the hotel. You can find hotel information below
+
+**Refund is not supported under any circumstances**
 
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="https://seaade2016.vn/404/"
+    href="/news/over-deadline/"
     target="_blank"
   >
-    Đăng ký / Registration
+    Registration
   </a>
 </center>
 
-![](/assets/news/pre-meeting.jpg)
+# Chương trình chi tiết / Detailed program
 
+  - [Phiên bản Tiếng Việt](https://drive.google.com/file/d/0Bzq0LC0pfk_JQlF3aHBqXzZ6c1E/view)
+
+  - [English version](https://drive.google.com/file/d/0Bzq0LC0pfk_JdzF3a0hVc2xJVUk/view)
+
+<!---
+![](/assets/news/pre-meeting.jpg)
+--->
 # Hotel information
 
 <div id="hotel">

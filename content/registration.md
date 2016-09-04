@@ -53,7 +53,7 @@ Please click here to start your registration.
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="http://ezy.dmc.com.vn/Login.aspx?confId=14"
+    href="/news/full-meeting/"
     target="_blank"
   >
     Online Registration

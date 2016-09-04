@@ -4,7 +4,7 @@ title: Useful Information
 
 # Currency Exchange
 
-The official currency is the Dong (VND). United States Dollar and EURO could be used but it is more convenient to use the Dong while purchasing in Hanoi.
+The official currency is the Dong (VND). United States Dollar and EURO could be used but it is more convenient to use the Dong while purchasing in Ho Chi Minh City.
 
 Exchange rates are: USD 1.00 = approx. 22,500 VND, EURO 1.00 = approx. 24,700 VND as of December 2015. You can exchange money at Tan Son Nhat International Airport or it is also possible to exchange money at the front desk at the hotel (Winsor Plaza hotel).
 
@@ -21,7 +21,7 @@ Event period in September is our summer which is considered the most beautiful f
 
 # Phone Calls & Mobile Phone Services
 
-For international calls, dial the international dialing code (00), country code, area code, and the individual number (countries codes can be found in the table above). You can make an international call from your hotel but it is often charge expensive cost, so you should check the price before making transactions.
+For international calls, dial the international dialing code (00), country code, area code, and the individual number (Detailed code you can found [here](https://countrycode.org/vietnam)). You can make an international call from your hotel but it is often charge expensive cost, so you should check the price before making transactions.
 
 It is much cheaper if you use local SIM and phone cards; which are available for sale at most convenient stores, hotels, and airports with amount from 22.500 VND (~1USD). There are several mobile networks in Vietnam but the cheapest one is Viettel.
 
