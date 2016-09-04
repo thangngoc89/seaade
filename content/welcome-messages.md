@@ -59,3 +59,19 @@ Faculty of Odonto-Stomatology,
 University of Medicine and Pharmacy Ho Chi Minh City, Vietnam
 
 (Chairperson of the Local Organizing Committee)
+
+## Welcome message from Minister of Health, Vietnam
+
+On behalf of the Ministry of Health of Vietnam, it is my great pleasure to welcome all the deans, vice deans, professors, faculty members and students from institutions involved in Dental education of the Region and from all over Vietnam to this 27th Annual Scientific Meeting of the South East Asia Association for Dental Education (SEAADE) held in Ho Chi Minh City, Vietnam.
+
+With the imminent implementation of the Mutual Recognition Arrangement which allows the free flow of medical and dental professionals among country members, dental education in Vietnam is being confronted with many challenges. I know that in recent years, all dental teaching institutions have been very actively involved in defining core competencies that align with international accreditation standards, to revise learning objectives and switch from traditional curriculum to competency-based curriculum, … All these changes imply a lot of work to be done, at institutional level and ministerial one, in order to come, first to a consensus in dental education in Vietnam before looking toward international norms. I would like to acknowledge all your endeavors that were very effectively supported by SEEADE Council members, dental schools and experts in dental education of the region and especially Prof. Krassanai Wangranshimakul for his valuable contribution in organizing many workshops in dental education in Ho Chi Minh City and in Hanoi.
+
+Today, with the gathering of more than 300 participants from 70 institutions involved in dental education, I trust that many ideas will come up, so that while taking into consideration the diversity of culture and difference in economic development stage of countries members, the theme of this Meeting “One Community, One Vision in Dental Education” could be fully attained.
+
+I would like to thank the international and local organizing committee for putting together such an exciting scientific program. Thank you to all international lecturers for sharing their expertise and to all participants to the Meeting. Your presence today well reflects your common concern for the advancement of dental education in the region as well as your commitment to share your vision in this particular field.
+
+I wish you all a fruitful meeting and an enjoyable stay in Ho Chi Minh City, Vietnam.
+
+**Assoc. Prof. Nguyen Thi Kim Tien**
+
+Minister of health, Vietnam
