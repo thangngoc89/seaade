@@ -14,11 +14,16 @@ title: Scientific Program
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="https://drive.google.com/file/d/0Bzq0LC0pfk_JalVUMEdDeklUMkU/view"
+    href="/404/"
     target="_blank"
   >
     Download Scientific Program
   </a>
+</center>
+
+# <center> Updating... Please comeback later</center>
+
+<!---
   <img src="/assets/events/page 01.jpg" />
   <img src="/assets/events/page 02.jpg" />
   <img src="/assets/events/page 03.jpg" />
@@ -27,4 +32,4 @@ title: Scientific Program
   <img src="/assets/events/page 06.jpg" />
   <img src="/assets/events/page 07.jpg" />
   <img src="/assets/events/page 08.jpg" />
-</center>
+--->
