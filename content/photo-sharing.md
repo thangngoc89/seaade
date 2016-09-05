@@ -1,6 +1,7 @@
 ---
 title: Photo Sharing
 ---
+
 **It is important that we provide you a special Google photos account to access the photos taken in Seaade 2016 Meeting. So, please see Guideline below**
 
 # Step 1: Open Seaade 2016 Photo button in new private or incognito windows
