@@ -1,14 +1,18 @@
-import cherdsak from "./img/1-cherdsak.jpg"
-import dolan from "./img/2-dolan-terri.jpg"
-import ferillo from "./img/3-ferrilo.jpg"
-import frederick from "./img/4-frederick.jpg"
-import ikuko from "./img/5-ikuko-morio.jpg"
+import ferillo from "./img/1-ferrilo.jpg"
+import paganelli from "./img/2-paganelli.jpg"
+import dolan from "./img/3-dolan-terri.jpg"
+import cherdsak from "./img/4-cherdsak.jpg"
+import frederick from "./img/5-frederick.jpg"
 import krassanai from "./img/6-krasssanai.jpg"
 import chooi from "./img/7-toh-chooi-gait.jpg"
-import phuc from "./img/8-vu-minh-phuc.jpg"
-import stephen from "./img/9-stephen.jpg"
-import jung from "./img/10-jung-taek.jpg"
-import botelho from "./img/11-botelho.jpg"
+import raman from "./img/8-raman.jpg"
+import jung from "./img/9-jung-taek.jpg"
+import ikuko from "./img/10-ikuko-morio.jpg"
+import stephen from "./img/11-stephen.jpg"
+import botelho from "./img/12-botelho.jpg"
+import allan from "./img/13-allan.jpg"
+import cuny from "./img/14-cuny.jpg"
+import heintze from "./img/15-heintze.jpg"
 
 const speakerData = [
   {
@@ -20,6 +24,13 @@ const speakerData = [
     photo: ferillo,
   },
   {
+    name: "Prof. Corrado Paganelli",
+    info: [
+      "President of ADEE",
+    ],
+    photo: paganelli,
+  },
+  {
     name: "Prof. Tereesa A. Dolan",
     info: [
       "D.D.S, M.P.H.",
@@ -28,13 +39,12 @@ const speakerData = [
     photo: dolan,
   },
   {
-    name: "Prof. Krassanai Wangrangsimakul",
+    name: "Assoc. Prof. Cherdsak Iramaneerat",
     info: [
-      "BSc (Medical Science), DDS,",
-      "FFDRCS(Ireland), FIAOMS, FRCDS(Thailand),",
-      "Diplomat Oral &Maxillo-facial Surgery, Thailand",
+      "M.D., M.H.P.E., Ph.D.",
+      "Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand",
     ],
-    photo: krassanai,
+    photo: cherdsak,
   },
   {
     name: "Prof. Frederick Charles Smales",
@@ -44,6 +54,15 @@ const speakerData = [
       "England",
     ],
     photo: frederick,
+  },
+  {
+    name: "Prof. Krassanai Wangrangsimakul",
+    info: [
+      "BSc (Medical Science), DDS,",
+      "FFDRCS(Ireland), FIAOMS, FRCDS(Thailand),",
+      "Diplomat Oral &Maxillo-facial Surgery, Thailand",
+    ],
+    photo: krassanai,
   },
   {
     name: "Prof. Toh Chooi Gait",
@@ -56,12 +75,24 @@ const speakerData = [
     photo: chooi,
   },
   {
-    name: "Assoc. Prof. Cherdsak Iramaneerat",
+    name: "Prof. Raman Bedi",
     info: [
-      "M.D., M.H.P.E., Ph.D.",
-      "Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand",
+      "Global Child Dental Fund Chairman",
+      "King's College London",
+      "England",
+
     ],
-    photo: cherdsak,
+    photo: raman,
+  },
+  {
+    name: "Prof. Jung Taek SEO",
+    info: [
+      "DDS, M.Sc., Ph.D.",
+      "Present Vice Dean for Educational Affairs",
+      "Yonsei University College of Dentistry",
+      "Seoul, Korea",
+    ],
+    photo: jung,
   },
   {
     name: "Prof. Ikuko Morio",
@@ -75,7 +106,7 @@ const speakerData = [
     photo: ikuko,
   },
   {
-    name: "Assoc. Prof. Stephen Hsu Chin-Ying ",
+    name: "Assoc. Prof. Chin-Ying Stephen Hsu",
     info: [
       "DDS, MS, Ph.D.",
       "Department of Dentistry",
@@ -83,27 +114,6 @@ const speakerData = [
       "Singapore",
     ],
     photo: stephen,
-  },
-  {
-    name: "Assoc. Prof. Vu Minh Phuc",
-    info: [
-      "M.D., Ph.D.",
-      "Head of Cardiovascular Department, Pediatric Hospital 1",
-      "Head of Pediatric Department",
-      "University of Medicine and Pharmacy, Ho Chi Minh City",
-      "Viet Nam",
-    ],
-    photo: phuc,
-  },
-  {
-    name: "Prof. Jung Taek SEO",
-    info: [
-      "DDS, M.Sc., Ph.D.",
-      "Present Vice Dean for Educational Affairs",
-      "Yonsei University College of Dentistry",
-      "Seoul, Korea",
-    ],
-    photo: jung,
   },
   {
     name: "Assoc. Prof. Michael Botelho",
@@ -115,6 +125,32 @@ const speakerData = [
       "Hong Kong",
     ],
     photo: botelho,
+  },
+  {
+    name: "Prof. Allan Pau",
+    info: [
+      "BDS, MS.c, Ph.D",
+      "Dental Public Health",
+      "The International Medical University",
+      "Malaysia",
+    ],
+    photo: allan,
+  },
+  {
+    name: "Assoc. Prof. Eve J. Cuny",
+    info: [
+      "MS, BA",
+      "University of Pacific",
+    ],
+    photo: cuny,
+  },
+  {
+    name: "Dr. Med. Dent. Siegward D. Heintze",
+    info: [
+      "R&D Ivoclar Vivadent",
+      "Head of Preclinical Research",
+    ],
+    photo: heintze,
   },
 ]
 
