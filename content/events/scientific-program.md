@@ -14,22 +14,15 @@ title: Scientific Program
 <center>
   <a
     class="btn btn-lg btn-yellow"
-    href="/404/"
+    href="https://drive.google.com/file/d/0Bzq0LC0pfk_JMWVXS0dzMElSeUU/view"
     target="_blank"
   >
     Download Scientific Program
   </a>
 </center>
 
-# <center> Updating... Please comeback later</center>
-
-<!---
-  <img src="/assets/events/page 01.jpg" />
-  <img src="/assets/events/page 02.jpg" />
-  <img src="/assets/events/page 03.jpg" />
-  <img src="/assets/events/page 04.jpg" />
-  <img src="/assets/events/page 05.jpg" />
-  <img src="/assets/events/page 06.jpg" />
-  <img src="/assets/events/page 07.jpg" />
-  <img src="/assets/events/page 08.jpg" />
---->
+<img src="/assets/events/PM 01.jpg" />
+<img src="/assets/events/070916-SC-01.jpg" />
+<img src="/assets/events/070916-SC-02.jpg" />
+<img src="/assets/events/070916-SC-03.jpg" />
+<img src="/assets/events/070916-SC-04.jpg" />
